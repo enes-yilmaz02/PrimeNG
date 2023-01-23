@@ -13,6 +13,8 @@ import { CascadeselectComponent } from './Moduller/FormModules/cascadeselect/cas
 import {CascadeSelectModule} from 'primeng/cascadeselect';
 import { CheckboxComponent } from './Moduller/FormModules/checkbox/checkbox.component';
 import {CheckboxModule} from 'primeng/checkbox';
+import { ChipsComponent } from './Moduller/FormModules/chips/chips.component';
+import {ChipsModule} from 'primeng/chips';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,6 +22,7 @@ import {CheckboxModule} from 'primeng/checkbox';
     AutoComplete,
     CascadeselectComponent,
     CheckboxComponent,
+    ChipsComponent,
     
   ],
   imports: [
@@ -31,7 +34,8 @@ import {CheckboxModule} from 'primeng/checkbox';
     HttpClientModule,
     CalendarModule,
     CascadeSelectModule,
-    CheckboxModule
+    CheckboxModule,
+    ChipsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
