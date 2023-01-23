@@ -21,6 +21,13 @@ import { DropdownComponent } from './Moduller/FormModules/dropdown/dropdown.comp
 import {DropdownModule} from 'primeng/dropdown';
 import { EditorComponent } from './Moduller/FormModules/editor/editor.component';
 import {EditorModule} from 'primeng/editor';
+import { FloatLabelComponent } from './Moduller/FormModules/float-label/float-label.component';
+import { InputMaskModule } from "primeng/inputmask";
+import { InputNumberModule } from "primeng/inputnumber";
+import { MultiSelectModule } from "primeng/multiselect";
+import { InputTextareaModule } from "primeng/inputtextarea";
+import { InputTextModule } from "primeng/inputtext";
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,6 +39,7 @@ import {EditorModule} from 'primeng/editor';
     ColorpickerComponent,
     DropdownComponent,
     EditorComponent,
+    FloatLabelComponent,
     
   ],
   imports: [
@@ -47,7 +55,12 @@ import {EditorModule} from 'primeng/editor';
     ChipsModule,
     ColorPickerModule,
     DropdownModule,
-    EditorModule
+    EditorModule,
+    InputMaskModule,
+    InputNumberModule,
+    MultiSelectModule,
+    InputTextareaModule,
+    InputTextModule
   ],
   providers: [],
   bootstrap: [AppComponent]
