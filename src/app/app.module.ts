@@ -19,6 +19,8 @@ import { ColorpickerComponent } from './Moduller/FormModules/colorpicker/colorpi
 import {ColorPickerModule} from 'primeng/colorpicker';
 import { DropdownComponent } from './Moduller/FormModules/dropdown/dropdown.component';
 import {DropdownModule} from 'primeng/dropdown';
+import { EditorComponent } from './Moduller/FormModules/editor/editor.component';
+import {EditorModule} from 'primeng/editor';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,6 +31,7 @@ import {DropdownModule} from 'primeng/dropdown';
     ChipsComponent,
     ColorpickerComponent,
     DropdownComponent,
+    EditorComponent,
     
   ],
   imports: [
@@ -43,7 +46,8 @@ import {DropdownModule} from 'primeng/dropdown';
     CheckboxModule,
     ChipsModule,
     ColorPickerModule,
-    DropdownModule
+    DropdownModule,
+    EditorModule
   ],
   providers: [],
   bootstrap: [AppComponent]
