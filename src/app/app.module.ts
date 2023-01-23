@@ -11,12 +11,15 @@ import { AutoComplete } from './Moduller/FormModules/auto-complete/auto-complete
 import {CalendarModule} from 'primeng/calendar';
 import { CascadeselectComponent } from './Moduller/FormModules/cascadeselect/cascadeselect.component';
 import {CascadeSelectModule} from 'primeng/cascadeselect';
+import { CheckboxComponent } from './Moduller/FormModules/checkbox/checkbox.component';
+import {CheckboxModule} from 'primeng/checkbox';
 @NgModule({
   declarations: [
     AppComponent,
     CalendarComponent,
     AutoComplete,
     CascadeselectComponent,
+    CheckboxComponent,
     
   ],
   imports: [
@@ -27,7 +30,8 @@ import {CascadeSelectModule} from 'primeng/cascadeselect';
     BrowserAnimationsModule,
     HttpClientModule,
     CalendarModule,
-    CascadeSelectModule
+    CascadeSelectModule,
+    CheckboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]
