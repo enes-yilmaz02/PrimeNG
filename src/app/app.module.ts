@@ -9,11 +9,15 @@ import { HttpClientModule } from '@angular/common/http';
 import { CalendarComponent } from './Moduller/FormModules/calendar/calendar.component';
 import { AutoComplete } from './Moduller/FormModules/auto-complete/auto-complete.component';
 import {CalendarModule} from 'primeng/calendar';
+import { CascadeselectComponent } from './Moduller/FormModules/cascadeselect/cascadeselect.component';
+import {CascadeSelectModule} from 'primeng/cascadeselect';
 @NgModule({
   declarations: [
     AppComponent,
     CalendarComponent,
-    AutoComplete
+    AutoComplete,
+    CascadeselectComponent,
+    
   ],
   imports: [
     BrowserModule,
@@ -22,7 +26,8 @@ import {CalendarModule} from 'primeng/calendar';
     FormsModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    CalendarModule
+    CalendarModule,
+    CascadeSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]
