@@ -15,6 +15,8 @@ import { CheckboxComponent } from './Moduller/FormModules/checkbox/checkbox.comp
 import {CheckboxModule} from 'primeng/checkbox';
 import { ChipsComponent } from './Moduller/FormModules/chips/chips.component';
 import {ChipsModule} from 'primeng/chips';
+import { ColorpickerComponent } from './Moduller/FormModules/colorpicker/colorpicker.component';
+import {ColorPickerModule} from 'primeng/colorpicker';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,6 +25,7 @@ import {ChipsModule} from 'primeng/chips';
     CascadeselectComponent,
     CheckboxComponent,
     ChipsComponent,
+    ColorpickerComponent,
     
   ],
   imports: [
@@ -35,7 +38,8 @@ import {ChipsModule} from 'primeng/chips';
     CalendarModule,
     CascadeSelectModule,
     CheckboxModule,
-    ChipsModule
+    ChipsModule,
+    ColorPickerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
