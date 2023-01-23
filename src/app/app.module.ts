@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { CalendarComponent } from './Moduller/FormModules/calendar/calendar.component';
 import { AutoComplete } from './Moduller/FormModules/auto-complete/auto-complete.component';
+import {CalendarModule} from 'primeng/calendar';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +21,8 @@ import { AutoComplete } from './Moduller/FormModules/auto-complete/auto-complete
     AutoCompleteModule,
     FormsModule,
     BrowserAnimationsModule,
-    HttpClientModule
+    HttpClientModule,
+    CalendarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
