@@ -29,6 +29,7 @@ import { InputTextareaModule } from "primeng/inputtextarea";
 import { InputTextModule } from "primeng/inputtext";
 import { InputGroupComponent } from './Moduller/FormModules/input-group/input-group.component';
 import {RadioButtonModule} from 'primeng/radiobutton';
+import { InputMaskComponent } from './Moduller/FormModules/input-mask/input-mask.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import {RadioButtonModule} from 'primeng/radiobutton';
     EditorComponent,
     FloatLabelComponent,
     InputGroupComponent,
+    InputMaskComponent,
     
   ],
   imports: [
