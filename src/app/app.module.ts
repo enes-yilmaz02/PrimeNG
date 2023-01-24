@@ -32,6 +32,7 @@ import {RadioButtonModule} from 'primeng/radiobutton';
 import { InputMaskComponent } from './Moduller/FormModules/input-mask/input-mask.component';
 import {InputSwitchModule} from 'primeng/inputswitch';
 import { InputSwitchComponent } from './Moduller/FormModules/input-switch/input-switch.component';
+import { InputTextComponent } from './Moduller/FormModules/input-text/input-text.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -47,6 +48,7 @@ import { InputSwitchComponent } from './Moduller/FormModules/input-switch/input-
     InputGroupComponent,
     InputMaskComponent,
     InputSwitchComponent,
+    InputTextComponent,
     
   ],
   imports: [
