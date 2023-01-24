@@ -52,7 +52,8 @@ import { CountryService } from './Servicess/country.service';
 import { PasswordComponent } from './Moduller/FormModules/password/password.component';
 import {DividerModule} from 'primeng/divider';
 import { RadioButtonComponent } from './Moduller/FormModules/radio-button/radio-button.component';
-
+import { RatingComponent } from './Moduller/FormModules/rating/rating.component';
+import {RatingModule} from 'primeng/rating';
 @NgModule({
   declarations: [
     AppComponent,
@@ -77,7 +78,8 @@ import { RadioButtonComponent } from './Moduller/FormModules/radio-button/radio-
     ListBoxComponent,
     MultiselectComponent,
     PasswordComponent,
-    RadioButtonComponent
+    RadioButtonComponent,
+    RatingComponent
     
   ],
   imports: [
@@ -108,7 +110,8 @@ import { RadioButtonComponent } from './Moduller/FormModules/radio-button/radio-
     MessagesModule,
     MessageModule,
     ListboxModule,
-    DividerModule
+    DividerModule,
+    RatingModule
   ],
   providers: [HttpClient,NodeService,CountryService],
   bootstrap: [AppComponent]
