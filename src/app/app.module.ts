@@ -34,6 +34,7 @@ import {InputSwitchModule} from 'primeng/inputswitch';
 import { InputSwitchComponent } from './Moduller/FormModules/input-switch/input-switch.component';
 import { InputTextComponent } from './Moduller/FormModules/input-text/input-text.component';
 import { InputTextareaComponent } from './Moduller/FormModules/input-textarea/input-textarea.component';
+import { InputNumberComponent } from './Moduller/FormModules/input-number/input-number.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -51,6 +52,7 @@ import { InputTextareaComponent } from './Moduller/FormModules/input-textarea/in
     InputSwitchComponent,
     InputTextComponent,
     InputTextareaComponent,
+    InputNumberComponent,
     
   ],
   imports: [
