@@ -58,6 +58,8 @@ import { SliderComponent } from './Moduller/FormModules/slider/slider.component'
 import {SliderModule} from 'primeng/slider';
 import { SelecButtonComponent } from './Moduller/FormModules/selec-button/selec-button.component';
 import {SelectButtonModule} from 'primeng/selectbutton';
+import { TogglebuttonComponent } from './Moduller/FormModules/togglebutton/togglebutton.component';
+import {ToggleButtonModule} from 'primeng/togglebutton';
 
 @NgModule({
   declarations: [
@@ -86,7 +88,8 @@ import {SelectButtonModule} from 'primeng/selectbutton';
     RadioButtonComponent,
     RatingComponent,
     SliderComponent,
-    SelecButtonComponent
+    SelecButtonComponent,
+    TogglebuttonComponent
     
   ],
   imports: [
@@ -120,7 +123,8 @@ import {SelectButtonModule} from 'primeng/selectbutton';
     DividerModule,
     RatingModule,
     SliderModule,
-    SelectButtonModule
+    SelectButtonModule,
+    ToggleButtonModule
   ],
   providers: [HttpClient,NodeService,CountryService],
   bootstrap: [AppComponent]
