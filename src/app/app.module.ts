@@ -30,7 +30,8 @@ import { InputTextModule } from "primeng/inputtext";
 import { InputGroupComponent } from './Moduller/FormModules/input-group/input-group.component';
 import {RadioButtonModule} from 'primeng/radiobutton';
 import { InputMaskComponent } from './Moduller/FormModules/input-mask/input-mask.component';
-
+import {InputSwitchModule} from 'primeng/inputswitch';
+import { InputSwitchComponent } from './Moduller/FormModules/input-switch/input-switch.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -45,6 +46,7 @@ import { InputMaskComponent } from './Moduller/FormModules/input-mask/input-mask
     FloatLabelComponent,
     InputGroupComponent,
     InputMaskComponent,
+    InputSwitchComponent,
     
   ],
   imports: [
@@ -66,7 +68,8 @@ import { InputMaskComponent } from './Moduller/FormModules/input-mask/input-mask
     MultiSelectModule,
     InputTextareaModule,
     InputTextModule,
-    RadioButtonModule
+    RadioButtonModule,
+    InputSwitchModule
   ],
   providers: [],
   bootstrap: [AppComponent]
