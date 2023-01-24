@@ -27,6 +27,8 @@ import { InputNumberModule } from "primeng/inputnumber";
 import { MultiSelectModule } from "primeng/multiselect";
 import { InputTextareaModule } from "primeng/inputtextarea";
 import { InputTextModule } from "primeng/inputtext";
+import { InputGroupComponent } from './Moduller/FormModules/input-group/input-group.component';
+import {RadioButtonModule} from 'primeng/radiobutton';
 
 @NgModule({
   declarations: [
@@ -40,6 +42,7 @@ import { InputTextModule } from "primeng/inputtext";
     DropdownComponent,
     EditorComponent,
     FloatLabelComponent,
+    InputGroupComponent,
     
   ],
   imports: [
@@ -60,7 +63,8 @@ import { InputTextModule } from "primeng/inputtext";
     InputNumberModule,
     MultiSelectModule,
     InputTextareaModule,
-    InputTextModule
+    InputTextModule,
+    RadioButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
