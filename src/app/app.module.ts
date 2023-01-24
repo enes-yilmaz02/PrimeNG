@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {FormsModule} from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { CalendarComponent } from './Moduller/FormModules/calendar/calendar.component';
 import { AutoComplete } from './Moduller/FormModules/auto-complete/auto-complete.component';
 import {CalendarModule} from 'primeng/calendar';
@@ -35,6 +35,10 @@ import { InputSwitchComponent } from './Moduller/FormModules/input-switch/input-
 import { InputTextComponent } from './Moduller/FormModules/input-text/input-text.component';
 import { InputTextareaComponent } from './Moduller/FormModules/input-textarea/input-textarea.component';
 import { InputNumberComponent } from './Moduller/FormModules/input-number/input-number.component';
+import { InvalidStateComponent } from './Moduller/FormModules/invalid-state/invalid-state.component';
+import { TreeSelectModule } from 'primeng/treeselect';
+import { PasswordModule } from 'primeng/password';
+import { NodeService } from './Servicess/node.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -53,6 +57,7 @@ import { InputNumberComponent } from './Moduller/FormModules/input-number/input-
     InputTextComponent,
     InputTextareaComponent,
     InputNumberComponent,
+    InvalidStateComponent
     
   ],
   imports: [
@@ -75,9 +80,11 @@ import { InputNumberComponent } from './Moduller/FormModules/input-number/input-
     InputTextareaModule,
     InputTextModule,
     RadioButtonModule,
-    InputSwitchModule
+    InputSwitchModule,
+    TreeSelectModule,
+    PasswordModule
   ],
-  providers: [],
+  providers: [HttpClient,NodeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
