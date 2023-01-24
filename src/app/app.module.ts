@@ -39,6 +39,8 @@ import { InvalidStateComponent } from './Moduller/FormModules/invalid-state/inva
 import { TreeSelectModule } from 'primeng/treeselect';
 import { PasswordModule } from 'primeng/password';
 import { NodeService } from './Servicess/node.service';
+import { KnobComponent } from './Moduller/FormModules/knob/knob.component';
+import {KnobModule} from 'primeng/knob';
 @NgModule({
   declarations: [
     AppComponent,
@@ -57,7 +59,8 @@ import { NodeService } from './Servicess/node.service';
     InputTextComponent,
     InputTextareaComponent,
     InputNumberComponent,
-    InvalidStateComponent
+    InvalidStateComponent,
+    KnobComponent
     
   ],
   imports: [
@@ -82,7 +85,8 @@ import { NodeService } from './Servicess/node.service';
     RadioButtonModule,
     InputSwitchModule,
     TreeSelectModule,
-    PasswordModule
+    PasswordModule,
+    KnobModule
   ],
   providers: [HttpClient,NodeService],
   bootstrap: [AppComponent]
