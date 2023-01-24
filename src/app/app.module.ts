@@ -45,6 +45,8 @@ import { KeyFilterComponent } from './Moduller/FormModules/key-filter/key-filter
 import {KeyFilterModule} from 'primeng/keyfilter';
 import {MessagesModule} from 'primeng/messages';
 import {MessageModule} from 'primeng/message';
+import {ListboxModule} from 'primeng/listbox';
+import { ListBoxComponent } from './Moduller/FormModules/list-box/list-box.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -65,7 +67,8 @@ import {MessageModule} from 'primeng/message';
     InputNumberComponent,
     InvalidStateComponent,
     KnobComponent,
-    KeyFilterComponent
+    KeyFilterComponent,
+    ListBoxComponent
     
   ],
   imports: [
@@ -94,7 +97,8 @@ import {MessageModule} from 'primeng/message';
     KnobModule,
     KeyFilterModule,
     MessagesModule,
-    MessageModule
+    MessageModule,
+    ListboxModule
   ],
   providers: [HttpClient,NodeService],
   bootstrap: [AppComponent]
