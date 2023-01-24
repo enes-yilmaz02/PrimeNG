@@ -41,6 +41,10 @@ import { PasswordModule } from 'primeng/password';
 import { NodeService } from './Servicess/node.service';
 import { KnobComponent } from './Moduller/FormModules/knob/knob.component';
 import {KnobModule} from 'primeng/knob';
+import { KeyFilterComponent } from './Moduller/FormModules/key-filter/key-filter.component';
+import {KeyFilterModule} from 'primeng/keyfilter';
+import {MessagesModule} from 'primeng/messages';
+import {MessageModule} from 'primeng/message';
 @NgModule({
   declarations: [
     AppComponent,
@@ -60,7 +64,8 @@ import {KnobModule} from 'primeng/knob';
     InputTextareaComponent,
     InputNumberComponent,
     InvalidStateComponent,
-    KnobComponent
+    KnobComponent,
+    KeyFilterComponent
     
   ],
   imports: [
@@ -86,7 +91,10 @@ import {KnobModule} from 'primeng/knob';
     InputSwitchModule,
     TreeSelectModule,
     PasswordModule,
-    KnobModule
+    KnobModule,
+    KeyFilterModule,
+    MessagesModule,
+    MessageModule
   ],
   providers: [HttpClient,NodeService],
   bootstrap: [AppComponent]
