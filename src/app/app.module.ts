@@ -54,6 +54,8 @@ import {DividerModule} from 'primeng/divider';
 import { RadioButtonComponent } from './Moduller/FormModules/radio-button/radio-button.component';
 import { RatingComponent } from './Moduller/FormModules/rating/rating.component';
 import {RatingModule} from 'primeng/rating';
+import { SliderComponent } from './Moduller/FormModules/slider/slider.component';
+import {SliderModule} from 'primeng/slider';
 @NgModule({
   declarations: [
     AppComponent,
@@ -79,7 +81,8 @@ import {RatingModule} from 'primeng/rating';
     MultiselectComponent,
     PasswordComponent,
     RadioButtonComponent,
-    RatingComponent
+    RatingComponent,
+    SliderComponent
     
   ],
   imports: [
@@ -111,7 +114,8 @@ import {RatingModule} from 'primeng/rating';
     MessageModule,
     ListboxModule,
     DividerModule,
-    RatingModule
+    RatingModule,
+    SliderModule
   ],
   providers: [HttpClient,NodeService,CountryService],
   bootstrap: [AppComponent]
