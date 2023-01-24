@@ -51,6 +51,7 @@ import { MultiselectComponent } from './Moduller/FormModules/multiselect/multise
 import { CountryService } from './Servicess/country.service';
 import { PasswordComponent } from './Moduller/FormModules/password/password.component';
 import {DividerModule} from 'primeng/divider';
+import { RadioButtonComponent } from './Moduller/FormModules/radio-button/radio-button.component';
 
 @NgModule({
   declarations: [
@@ -75,7 +76,8 @@ import {DividerModule} from 'primeng/divider';
     KeyFilterComponent,
     ListBoxComponent,
     MultiselectComponent,
-    PasswordComponent
+    PasswordComponent,
+    RadioButtonComponent
     
   ],
   imports: [
