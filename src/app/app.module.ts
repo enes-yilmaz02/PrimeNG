@@ -49,6 +49,8 @@ import {ListboxModule} from 'primeng/listbox';
 import { ListBoxComponent } from './Moduller/FormModules/list-box/list-box.component';
 import { MultiselectComponent } from './Moduller/FormModules/multiselect/multiselect.component';
 import { CountryService } from './Servicess/country.service';
+import { PasswordComponent } from './Moduller/FormModules/password/password.component';
+import {DividerModule} from 'primeng/divider';
 
 @NgModule({
   declarations: [
@@ -72,7 +74,8 @@ import { CountryService } from './Servicess/country.service';
     KnobComponent,
     KeyFilterComponent,
     ListBoxComponent,
-    MultiselectComponent
+    MultiselectComponent,
+    PasswordComponent
     
   ],
   imports: [
@@ -102,7 +105,8 @@ import { CountryService } from './Servicess/country.service';
     KeyFilterModule,
     MessagesModule,
     MessageModule,
-    ListboxModule
+    ListboxModule,
+    DividerModule
   ],
   providers: [HttpClient,NodeService,CountryService],
   bootstrap: [AppComponent]
