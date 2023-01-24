@@ -47,6 +47,9 @@ import {MessagesModule} from 'primeng/messages';
 import {MessageModule} from 'primeng/message';
 import {ListboxModule} from 'primeng/listbox';
 import { ListBoxComponent } from './Moduller/FormModules/list-box/list-box.component';
+import { MultiselectComponent } from './Moduller/FormModules/multiselect/multiselect.component';
+import { CountryService } from './Servicess/country.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -68,7 +71,8 @@ import { ListBoxComponent } from './Moduller/FormModules/list-box/list-box.compo
     InvalidStateComponent,
     KnobComponent,
     KeyFilterComponent,
-    ListBoxComponent
+    ListBoxComponent,
+    MultiselectComponent
     
   ],
   imports: [
@@ -100,7 +104,7 @@ import { ListBoxComponent } from './Moduller/FormModules/list-box/list-box.compo
     MessageModule,
     ListboxModule
   ],
-  providers: [HttpClient,NodeService],
+  providers: [HttpClient,NodeService,CountryService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
