@@ -33,6 +33,7 @@ import { InputMaskComponent } from './Moduller/FormModules/input-mask/input-mask
 import {InputSwitchModule} from 'primeng/inputswitch';
 import { InputSwitchComponent } from './Moduller/FormModules/input-switch/input-switch.component';
 import { InputTextComponent } from './Moduller/FormModules/input-text/input-text.component';
+import { InputTextareaComponent } from './Moduller/FormModules/input-textarea/input-textarea.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -49,6 +50,7 @@ import { InputTextComponent } from './Moduller/FormModules/input-text/input-text
     InputMaskComponent,
     InputSwitchComponent,
     InputTextComponent,
+    InputTextareaComponent,
     
   ],
   imports: [
