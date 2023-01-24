@@ -60,6 +60,7 @@ import { SelecButtonComponent } from './Moduller/FormModules/selec-button/selec-
 import {SelectButtonModule} from 'primeng/selectbutton';
 import { TogglebuttonComponent } from './Moduller/FormModules/togglebutton/togglebutton.component';
 import {ToggleButtonModule} from 'primeng/togglebutton';
+import { TreeSelectComponent } from './Moduller/FormModules/tree-select/tree-select.component';
 
 @NgModule({
   declarations: [
@@ -89,7 +90,8 @@ import {ToggleButtonModule} from 'primeng/togglebutton';
     RatingComponent,
     SliderComponent,
     SelecButtonComponent,
-    TogglebuttonComponent
+    TogglebuttonComponent,
+    TreeSelectComponent
     
   ],
   imports: [
