@@ -61,7 +61,8 @@ import {SelectButtonModule} from 'primeng/selectbutton';
 import { TogglebuttonComponent } from './Moduller/FormModules/togglebutton/togglebutton.component';
 import {ToggleButtonModule} from 'primeng/togglebutton';
 import { TreeSelectComponent } from './Moduller/FormModules/tree-select/tree-select.component';
-
+import { ThreeChechBoxComponent } from './Moduller/FormModules/three-chech-box/three-chech-box.component';
+import {TriStateCheckboxModule} from 'primeng/tristatecheckbox';
 @NgModule({
   declarations: [
     AppComponent,
@@ -91,7 +92,8 @@ import { TreeSelectComponent } from './Moduller/FormModules/tree-select/tree-sel
     SliderComponent,
     SelecButtonComponent,
     TogglebuttonComponent,
-    TreeSelectComponent
+    TreeSelectComponent,
+    ThreeChechBoxComponent
     
   ],
   imports: [
@@ -126,7 +128,8 @@ import { TreeSelectComponent } from './Moduller/FormModules/tree-select/tree-sel
     RatingModule,
     SliderModule,
     SelectButtonModule,
-    ToggleButtonModule
+    ToggleButtonModule,
+    TriStateCheckboxModule
   ],
   providers: [HttpClient,NodeService,CountryService],
   bootstrap: [AppComponent]
