@@ -85,7 +85,8 @@ import {OrganizationChartModule} from 'primeng/organizationchart';
 import { OrgChartComponent } from './Moduller/Datas/org-chart/org-chart.component';
 import { PaginatorComponent } from './Moduller/Datas/paginator/paginator.component';
 import {PaginatorModule} from 'primeng/paginator';
-
+import { PickListComponent } from './Moduller/Datas/pick-list/pick-list.component';
+import {PickListModule} from 'primeng/picklist';
 @NgModule({
   declarations: [
     AppComponent,
@@ -125,7 +126,8 @@ import {PaginatorModule} from 'primeng/paginator';
     GMapComponent,
     OrderListComponent,
     OrgChartComponent,
-    PaginatorComponent
+    PaginatorComponent,
+    PickListComponent
     
   ],
   imports: [
@@ -171,7 +173,8 @@ import {PaginatorModule} from 'primeng/paginator';
     GMapModule,
     OrderListModule,
     OrganizationChartModule,
-    PaginatorModule
+    PaginatorModule,
+    PickListModule
   ],
   providers: [HttpClient,NodeService,CountryService,MessageService,ProductService,EventService],
   bootstrap: [AppComponent],
