@@ -91,6 +91,7 @@ import { BasicComponent } from './Moduller/Tables/basic/basic.component';
 import {TableModule} from 'primeng/table';
 import { DynamicComponent } from './Moduller/Tables/dynamic/dynamic.component';
 import { TemplatingComponent } from './Moduller/Tables/templating/templating.component';
+import { SizeComponent } from './Moduller/Tables/size/size.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -134,7 +135,8 @@ import { TemplatingComponent } from './Moduller/Tables/templating/templating.com
     PickListComponent,
     BasicComponent,
     DynamicComponent,
-    TemplatingComponent
+    TemplatingComponent,
+    SizeComponent
     
   ],
   imports: [
