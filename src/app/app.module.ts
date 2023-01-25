@@ -72,7 +72,9 @@ import { SpeedDialComponent } from './Moduller/Button/speed-dial/speed-dial.comp
 import {SpeedDialModule} from 'primeng/speeddial';
 import {ToastModule} from 'primeng/toast';
 import {TabViewModule} from 'primeng/tabview';
-
+import { DataViewComponent } from './Moduller/Datas/data-view/data-view.component';
+import {DataViewModule} from 'primeng/dataview';
+import { ProductService } from './Servicess/product.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -106,7 +108,8 @@ import {TabViewModule} from 'primeng/tabview';
     ThreeChechBoxComponent,
     ButtonComponent,
     SplitButtonComponent,
-    SpeedDialComponent
+    SpeedDialComponent,
+    DataViewComponent
     
   ],
   imports: [
@@ -147,9 +150,10 @@ import {TabViewModule} from 'primeng/tabview';
     SplitButtonModule,
     SpeedDialModule,
     ToastModule,
-    TabViewModule
+    TabViewModule,
+    DataViewModule
   ],
-  providers: [HttpClient,NodeService,CountryService,MessageService],
+  providers: [HttpClient,NodeService,CountryService,MessageService,ProductService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
