@@ -97,6 +97,7 @@ import { StripedComponent } from './Moduller/Tables/striped/striped.component';
 import { ColGroupComponent } from './Moduller/Tables/col-group/col-group.component';
 import { PageTableComponent } from './Moduller/Tables/page-table/page-table.component';
 import { CustomerService } from './Servicess/customer.service';
+import { SortTableComponent } from './Moduller/Tables/sort-table/sort-table.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -145,7 +146,8 @@ import { CustomerService } from './Servicess/customer.service';
     GridlinesComponent,
     StripedComponent,
     ColGroupComponent,
-    PageTableComponent
+    PageTableComponent,
+    SortTableComponent
     
   ],
   imports: [
