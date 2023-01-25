@@ -102,6 +102,7 @@ import { FilterTableComponent } from './Moduller/Tables/filter-table/filter-tabl
 import { SelectionComponent } from './Moduller/Tables/selection/selection.component';
 import { LazyTableComponent } from './Moduller/Tables/lazy-table/lazy-table.component';
 import { ScrollTableComponent } from './Moduller/Tables/scroll-table/scroll-table.component';
+import { VirtualScrollComponent } from './Moduller/Tables/virtual-scroll/virtual-scroll.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -155,7 +156,8 @@ import { ScrollTableComponent } from './Moduller/Tables/scroll-table/scroll-tabl
     FilterTableComponent,
     SelectionComponent,
     LazyTableComponent,
-    ScrollTableComponent
+    ScrollTableComponent,
+    VirtualScrollComponent
     
   ],
   imports: [
