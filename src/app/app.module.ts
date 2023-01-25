@@ -93,6 +93,7 @@ import { DynamicComponent } from './Moduller/Tables/dynamic/dynamic.component';
 import { TemplatingComponent } from './Moduller/Tables/templating/templating.component';
 import { SizeComponent } from './Moduller/Tables/size/size.component';
 import { GridlinesComponent } from './Moduller/Tables/gridlines/gridlines.component';
+import { StripedComponent } from './Moduller/Tables/striped/striped.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -138,7 +139,8 @@ import { GridlinesComponent } from './Moduller/Tables/gridlines/gridlines.compon
     DynamicComponent,
     TemplatingComponent,
     SizeComponent,
-    GridlinesComponent
+    GridlinesComponent,
+    StripedComponent
     
   ],
   imports: [
