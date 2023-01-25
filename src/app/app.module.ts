@@ -77,6 +77,8 @@ import {DataViewModule} from 'primeng/dataview';
 import { ProductService } from './Servicess/product.service';
 import { FullCalendarComponent } from './Moduller/Datas/full-calendar/full-calendar.component';
 import { EventService } from './Servicess/event.service';
+import {GMapModule} from 'primeng/gmap';
+import { GMapComponent } from './Moduller/Datas/g-map/g-map.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -112,7 +114,8 @@ import { EventService } from './Servicess/event.service';
     SplitButtonComponent,
     SpeedDialComponent,
     DataViewComponent,
-    FullCalendarComponent
+    FullCalendarComponent,
+    GMapComponent
     
   ],
   imports: [
@@ -154,7 +157,8 @@ import { EventService } from './Servicess/event.service';
     SpeedDialModule,
     ToastModule,
     TabViewModule,
-    DataViewModule
+    DataViewModule,
+    GMapModule
   ],
   providers: [HttpClient,NodeService,CountryService,MessageService,ProductService,EventService],
   bootstrap: [AppComponent],
