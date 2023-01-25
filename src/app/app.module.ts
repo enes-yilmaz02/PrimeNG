@@ -92,6 +92,7 @@ import {TableModule} from 'primeng/table';
 import { DynamicComponent } from './Moduller/Tables/dynamic/dynamic.component';
 import { TemplatingComponent } from './Moduller/Tables/templating/templating.component';
 import { SizeComponent } from './Moduller/Tables/size/size.component';
+import { GridlinesComponent } from './Moduller/Tables/gridlines/gridlines.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -136,7 +137,8 @@ import { SizeComponent } from './Moduller/Tables/size/size.component';
     BasicComponent,
     DynamicComponent,
     TemplatingComponent,
-    SizeComponent
+    SizeComponent,
+    GridlinesComponent
     
   ],
   imports: [
