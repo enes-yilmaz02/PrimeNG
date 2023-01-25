@@ -81,6 +81,10 @@ import {GMapModule} from 'primeng/gmap';
 import { GMapComponent } from './Moduller/Datas/g-map/g-map.component';
 import {OrderListModule} from 'primeng/orderlist';
 import { OrderListComponent } from './Moduller/Datas/order-list/order-list.component';
+import {OrganizationChartModule} from 'primeng/organizationchart';
+import { OrgChartComponent } from './Moduller/Datas/org-chart/org-chart.component';
+import { PaginatorComponent } from './Moduller/Datas/paginator/paginator.component';
+import {PaginatorModule} from 'primeng/paginator';
 
 @NgModule({
   declarations: [
@@ -119,7 +123,9 @@ import { OrderListComponent } from './Moduller/Datas/order-list/order-list.compo
     DataViewComponent,
     FullCalendarComponent,
     GMapComponent,
-    OrderListComponent
+    OrderListComponent,
+    OrgChartComponent,
+    PaginatorComponent
     
   ],
   imports: [
@@ -163,7 +169,9 @@ import { OrderListComponent } from './Moduller/Datas/order-list/order-list.compo
     TabViewModule,
     DataViewModule,
     GMapModule,
-    OrderListModule
+    OrderListModule,
+    OrganizationChartModule,
+    PaginatorModule
   ],
   providers: [HttpClient,NodeService,CountryService,MessageService,ProductService,EventService],
   bootstrap: [AppComponent],

@@ -1,0 +1,31 @@
+<div class="content-section introduction">
+    <div class="feature-intro">
+        <h1>Paginator</h1>
+        <p>Paginator is a generic component to display content in paged format.</p>
+    </div>
+    <app-demoActions github="paginator" stackblitz="paginator-demo"></app-demoActions>
+</div>
+
+<div class="content-section implementation">
+    <div class="card">
+        <h5>Basic</h5>
+        <p-paginator [rows]="10" [totalRecords]="totalRecords" [rowsPerPageOptions]="[10,20,30]"></p-paginator>
+
+        <h5>Custom</h5>
+        <div class="grid align-items-center">
+            <div class="col-1">
+                <p-button icon="pi pi-refresh" (onClick)="refresh()"></p-button>
+            </div>
+            <div class="col-10">
+                <p-paginator [first]="first" [rows]="1" [totalRecords]="totalRecords2" (onPageChange)="onPageChange($event)"
+                [showJumpToPageDropdown]="true" [showPageLinks]="false"></p-paginator>
+            </div>
+            <div class="col-1 grid justify-content-end">
+                <p-button icon="pi pi-search"></p-button>
+            </div>
+        </div>
+        <div class="image-gallery">
+            <img src="assets/showcase/images/demo/nature/nature{{first + 1}}.jpg" />
+        </div>
+    </div>
+</div>
