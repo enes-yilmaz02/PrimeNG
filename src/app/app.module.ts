@@ -79,6 +79,9 @@ import { FullCalendarComponent } from './Moduller/Datas/full-calendar/full-calen
 import { EventService } from './Servicess/event.service';
 import {GMapModule} from 'primeng/gmap';
 import { GMapComponent } from './Moduller/Datas/g-map/g-map.component';
+import {OrderListModule} from 'primeng/orderlist';
+import { OrderListComponent } from './Moduller/Datas/order-list/order-list.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -115,7 +118,8 @@ import { GMapComponent } from './Moduller/Datas/g-map/g-map.component';
     SpeedDialComponent,
     DataViewComponent,
     FullCalendarComponent,
-    GMapComponent
+    GMapComponent,
+    OrderListComponent
     
   ],
   imports: [
@@ -158,7 +162,8 @@ import { GMapComponent } from './Moduller/Datas/g-map/g-map.component';
     ToastModule,
     TabViewModule,
     DataViewModule,
-    GMapModule
+    GMapModule,
+    OrderListModule
   ],
   providers: [HttpClient,NodeService,CountryService,MessageService,ProductService,EventService],
   bootstrap: [AppComponent],
