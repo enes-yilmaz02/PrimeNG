@@ -68,6 +68,11 @@ import {ButtonModule} from 'primeng/button';
 import { SplitButtonComponent } from './Moduller/Button/split-button/split-button.component';
 import {SplitButtonModule} from 'primeng/splitbutton';
 import { MessageService } from 'primeng/api';
+import { SpeedDialComponent } from './Moduller/Button/speed-dial/speed-dial.component';
+import {SpeedDialModule} from 'primeng/speeddial';
+import {ToastModule} from 'primeng/toast';
+import {TabViewModule} from 'primeng/tabview';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -100,7 +105,8 @@ import { MessageService } from 'primeng/api';
     TreeSelectComponent,
     ThreeChechBoxComponent,
     ButtonComponent,
-    SplitButtonComponent
+    SplitButtonComponent,
+    SpeedDialComponent
     
   ],
   imports: [
@@ -138,7 +144,10 @@ import { MessageService } from 'primeng/api';
     ToggleButtonModule,
     TriStateCheckboxModule,
     ButtonModule,
-    SplitButtonModule
+    SplitButtonModule,
+    SpeedDialModule,
+    ToastModule,
+    TabViewModule
   ],
   providers: [HttpClient,NodeService,CountryService,MessageService],
   bootstrap: [AppComponent]
