@@ -90,6 +90,7 @@ import {PickListModule} from 'primeng/picklist';
 import { BasicComponent } from './Moduller/Tables/basic/basic.component';
 import {TableModule} from 'primeng/table';
 import { DynamicComponent } from './Moduller/Tables/dynamic/dynamic.component';
+import { TemplatingComponent } from './Moduller/Tables/templating/templating.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -132,7 +133,8 @@ import { DynamicComponent } from './Moduller/Tables/dynamic/dynamic.component';
     PaginatorComponent,
     PickListComponent,
     BasicComponent,
-    DynamicComponent
+    DynamicComponent,
+    TemplatingComponent
     
   ],
   imports: [
