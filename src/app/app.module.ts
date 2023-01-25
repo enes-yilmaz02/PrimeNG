@@ -100,6 +100,7 @@ import { CustomerService } from './Servicess/customer.service';
 import { SortTableComponent } from './Moduller/Tables/sort-table/sort-table.component';
 import { FilterTableComponent } from './Moduller/Tables/filter-table/filter-table.component';
 import { SelectionComponent } from './Moduller/Tables/selection/selection.component';
+import { LazyTableComponent } from './Moduller/Tables/lazy-table/lazy-table.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -151,7 +152,8 @@ import { SelectionComponent } from './Moduller/Tables/selection/selection.compon
     PageTableComponent,
     SortTableComponent,
     FilterTableComponent,
-    SelectionComponent
+    SelectionComponent,
+    LazyTableComponent
     
   ],
   imports: [
