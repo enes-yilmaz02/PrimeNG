@@ -65,6 +65,9 @@ import { ThreeChechBoxComponent } from './Moduller/FormModules/three-chech-box/t
 import {TriStateCheckboxModule} from 'primeng/tristatecheckbox';
 import { ButtonComponent } from './Moduller/Button/button/button.component';
 import {ButtonModule} from 'primeng/button';
+import { SplitButtonComponent } from './Moduller/Button/split-button/split-button.component';
+import {SplitButtonModule} from 'primeng/splitbutton';
+import { MessageService } from 'primeng/api';
 @NgModule({
   declarations: [
     AppComponent,
@@ -96,7 +99,8 @@ import {ButtonModule} from 'primeng/button';
     TogglebuttonComponent,
     TreeSelectComponent,
     ThreeChechBoxComponent,
-    ButtonComponent
+    ButtonComponent,
+    SplitButtonComponent
     
   ],
   imports: [
@@ -133,9 +137,10 @@ import {ButtonModule} from 'primeng/button';
     SelectButtonModule,
     ToggleButtonModule,
     TriStateCheckboxModule,
-    ButtonModule
+    ButtonModule,
+    SplitButtonModule
   ],
-  providers: [HttpClient,NodeService,CountryService],
+  providers: [HttpClient,NodeService,CountryService,MessageService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
