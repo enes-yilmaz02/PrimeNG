@@ -99,6 +99,7 @@ import { PageTableComponent } from './Moduller/Tables/page-table/page-table.comp
 import { CustomerService } from './Servicess/customer.service';
 import { SortTableComponent } from './Moduller/Tables/sort-table/sort-table.component';
 import { FilterTableComponent } from './Moduller/Tables/filter-table/filter-table.component';
+import { SelectionComponent } from './Moduller/Tables/selection/selection.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -149,7 +150,8 @@ import { FilterTableComponent } from './Moduller/Tables/filter-table/filter-tabl
     ColGroupComponent,
     PageTableComponent,
     SortTableComponent,
-    FilterTableComponent
+    FilterTableComponent,
+    SelectionComponent
     
   ],
   imports: [
