@@ -101,6 +101,7 @@ import { SortTableComponent } from './Moduller/Tables/sort-table/sort-table.comp
 import { FilterTableComponent } from './Moduller/Tables/filter-table/filter-table.component';
 import { SelectionComponent } from './Moduller/Tables/selection/selection.component';
 import { LazyTableComponent } from './Moduller/Tables/lazy-table/lazy-table.component';
+import { ScrollTableComponent } from './Moduller/Tables/scroll-table/scroll-table.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -153,7 +154,8 @@ import { LazyTableComponent } from './Moduller/Tables/lazy-table/lazy-table.comp
     SortTableComponent,
     FilterTableComponent,
     SelectionComponent,
-    LazyTableComponent
+    LazyTableComponent,
+    ScrollTableComponent
     
   ],
   imports: [
