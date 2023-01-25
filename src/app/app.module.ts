@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import {AutoCompleteModule} from 'primeng/autocomplete';
 import { AppRoutingModule } from './app-routing.module';
@@ -75,6 +75,8 @@ import {TabViewModule} from 'primeng/tabview';
 import { DataViewComponent } from './Moduller/Datas/data-view/data-view.component';
 import {DataViewModule} from 'primeng/dataview';
 import { ProductService } from './Servicess/product.service';
+import { FullCalendarComponent } from './Moduller/Datas/full-calendar/full-calendar.component';
+import { EventService } from './Servicess/event.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -109,7 +111,8 @@ import { ProductService } from './Servicess/product.service';
     ButtonComponent,
     SplitButtonComponent,
     SpeedDialComponent,
-    DataViewComponent
+    DataViewComponent,
+    FullCalendarComponent
     
   ],
   imports: [
@@ -153,7 +156,8 @@ import { ProductService } from './Servicess/product.service';
     TabViewModule,
     DataViewModule
   ],
-  providers: [HttpClient,NodeService,CountryService,MessageService,ProductService],
-  bootstrap: [AppComponent]
+  providers: [HttpClient,NodeService,CountryService,MessageService,ProductService,EventService],
+  bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule { }
