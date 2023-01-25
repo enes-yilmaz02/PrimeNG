@@ -95,6 +95,8 @@ import { SizeComponent } from './Moduller/Tables/size/size.component';
 import { GridlinesComponent } from './Moduller/Tables/gridlines/gridlines.component';
 import { StripedComponent } from './Moduller/Tables/striped/striped.component';
 import { ColGroupComponent } from './Moduller/Tables/col-group/col-group.component';
+import { PageTableComponent } from './Moduller/Tables/page-table/page-table.component';
+import { CustomerService } from './Servicess/customer.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -142,7 +144,8 @@ import { ColGroupComponent } from './Moduller/Tables/col-group/col-group.compone
     SizeComponent,
     GridlinesComponent,
     StripedComponent,
-    ColGroupComponent
+    ColGroupComponent,
+    PageTableComponent
     
   ],
   imports: [
@@ -192,7 +195,14 @@ import { ColGroupComponent } from './Moduller/Tables/col-group/col-group.compone
     PickListModule,
     TableModule
   ],
-  providers: [HttpClient,NodeService,CountryService,MessageService,ProductService,EventService],
+  providers: [HttpClient,
+              NodeService,
+              CountryService,
+              MessageService,
+              ProductService,
+              EventService,
+              CustomerService
+            ],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
