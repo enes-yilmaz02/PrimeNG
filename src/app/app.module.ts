@@ -94,6 +94,7 @@ import { TemplatingComponent } from './Moduller/Tables/templating/templating.com
 import { SizeComponent } from './Moduller/Tables/size/size.component';
 import { GridlinesComponent } from './Moduller/Tables/gridlines/gridlines.component';
 import { StripedComponent } from './Moduller/Tables/striped/striped.component';
+import { ColGroupComponent } from './Moduller/Tables/col-group/col-group.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -140,7 +141,8 @@ import { StripedComponent } from './Moduller/Tables/striped/striped.component';
     TemplatingComponent,
     SizeComponent,
     GridlinesComponent,
-    StripedComponent
+    StripedComponent,
+    ColGroupComponent
     
   ],
   imports: [
