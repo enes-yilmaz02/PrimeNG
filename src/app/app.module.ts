@@ -114,8 +114,10 @@ import {ConfirmDialogModule} from 'primeng/confirmdialog';
 import {ConfirmPopupModule} from 'primeng/confirmpopup';
 import {FileUploadModule} from 'primeng/fileupload';
 import {TimelineModule} from 'primeng/timeline';
-import { TimelineComponent } from './Moduller/Timeliness/timeline/timeline.component';
-
+import { TimelineComponent } from './Moduller/otherss/timeline/timeline.component';
+import {TreeModule} from 'primeng/tree';
+import {DialogModule} from 'primeng/dialog';
+import {ContextMenuModule} from 'primeng/contextmenu';
 @NgModule({
   declarations: [
     AppComponent,
@@ -230,7 +232,10 @@ import { TimelineComponent } from './Moduller/Timeliness/timeline/timeline.compo
     ConfirmDialogModule,
     ConfirmPopupModule,
     FileUploadModule,
-    TimelineModule
+    TimelineModule,
+    TreeModule,
+    DialogModule,
+    ContextMenuModule
   ],
   providers: [HttpClient,
               NodeService,
@@ -239,7 +244,8 @@ import { TimelineComponent } from './Moduller/Timeliness/timeline/timeline.compo
               ProductService,
               EventService,
               CustomerService,
-              ConfirmationService
+              ConfirmationService,
+              NodeService
             ],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
