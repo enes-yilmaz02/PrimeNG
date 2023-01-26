@@ -113,6 +113,9 @@ import { CrudTableComponent } from './Moduller/Tables/crud-table/crud-table.comp
 import {ConfirmDialogModule} from 'primeng/confirmdialog';
 import {ConfirmPopupModule} from 'primeng/confirmpopup';
 import {FileUploadModule} from 'primeng/fileupload';
+import {TimelineModule} from 'primeng/timeline';
+import { TimelineComponent } from './Moduller/Timeliness/timeline/timeline.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -174,7 +177,8 @@ import {FileUploadModule} from 'primeng/fileupload';
     ExportTableComponent,
     StateTableComponent,
     StickyTableComponent,
-    CrudTableComponent
+    CrudTableComponent,
+    TimelineComponent
     
   ],
   imports: [
@@ -225,7 +229,8 @@ import {FileUploadModule} from 'primeng/fileupload';
     TableModule,
     ConfirmDialogModule,
     ConfirmPopupModule,
-    FileUploadModule
+    FileUploadModule,
+    TimelineModule
   ],
   providers: [HttpClient,
               NodeService,
