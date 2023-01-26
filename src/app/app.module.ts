@@ -122,6 +122,8 @@ import {TreeTableModule} from 'primeng/treetable';
 import { TreeTableComponent } from './Moduller/otherss/tree-table/tree-table.component';
 import {VirtualScrollerModule} from 'primeng/virtualscroller';
 import { VirtualScrollerComponent } from './Moduller/otherss/virtual-scroller/virtual-scroller.component';
+import {ScrollerModule} from 'primeng/scroller';
+import { ScrollerComponent } from './Moduller/otherss/scroller/scroller.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -186,7 +188,8 @@ import { VirtualScrollerComponent } from './Moduller/otherss/virtual-scroller/vi
     CrudTableComponent,
     TimelineComponent,
     TreeTableComponent,
-    VirtualScrollerComponent
+    VirtualScrollerComponent,
+    ScrollerComponent
     
   ],
   imports: [
@@ -243,7 +246,8 @@ import { VirtualScrollerComponent } from './Moduller/otherss/virtual-scroller/vi
     DialogModule,
     ContextMenuModule,
     TreeTableModule,
-    VirtualScrollerModule
+    VirtualScrollerModule,
+    ScrollerModule
   ],
   providers: [HttpClient,
               NodeService,
