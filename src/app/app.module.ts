@@ -103,6 +103,7 @@ import { SelectionComponent } from './Moduller/Tables/selection/selection.compon
 import { LazyTableComponent } from './Moduller/Tables/lazy-table/lazy-table.component';
 import { ScrollTableComponent } from './Moduller/Tables/scroll-table/scroll-table.component';
 import { VirtualScrollComponent } from './Moduller/Tables/virtual-scroll/virtual-scroll.component';
+import { RowExpandComponent } from './Moduller/Tables/row-expand/row-expand.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -157,7 +158,8 @@ import { VirtualScrollComponent } from './Moduller/Tables/virtual-scroll/virtual
     SelectionComponent,
     LazyTableComponent,
     ScrollTableComponent,
-    VirtualScrollComponent
+    VirtualScrollComponent,
+    RowExpandComponent
     
   ],
   imports: [

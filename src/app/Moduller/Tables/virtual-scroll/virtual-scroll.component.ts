@@ -39,10 +39,10 @@ export class VirtualScrollComponent implements OnInit{
        const loadedCars = this.cars.slice(event.first!, event.first! + event.rows!);
 
       //populate page of virtual cars
-      Array.prototype.splice.apply(this.virtualCars,  [...[event.first!, event.rows], ...loadedCars ]);
+      //Array.prototype.splice.apply(this.virtualCars,  [...[event.first!, event.rows], ...loadedCars ]);
 
       //trigger change detection
-      event.forceUpdate();
+      //event.forceUpdate();
     }, Math.random() * 1000 + 250);
   }
 }
