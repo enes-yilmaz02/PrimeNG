@@ -107,6 +107,7 @@ import { RowExpandComponent } from './Moduller/Tables/row-expand/row-expand.comp
 import { EditTableComponent } from './Moduller/Tables/edit-table/edit-table.component';
 import { ToggleTableComponent } from './Moduller/Tables/toggle-table/toggle-table.component';
 import { ExportTableComponent } from './Moduller/Tables/export-table/export-table.component';
+import { StateTableComponent } from './Moduller/Tables/state-table/state-table.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -165,7 +166,8 @@ import { ExportTableComponent } from './Moduller/Tables/export-table/export-tabl
     RowExpandComponent,
     EditTableComponent,
     ToggleTableComponent,
-    ExportTableComponent
+    ExportTableComponent,
+    StateTableComponent
     
   ],
   imports: [
