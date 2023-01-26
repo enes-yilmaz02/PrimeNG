@@ -67,7 +67,7 @@ import { ButtonComponent } from './Moduller/Button/button/button.component';
 import {ButtonModule} from 'primeng/button';
 import { SplitButtonComponent } from './Moduller/Button/split-button/split-button.component';
 import {SplitButtonModule} from 'primeng/splitbutton';
-import { MessageService } from 'primeng/api';
+import { ConfirmationService, MessageService } from 'primeng/api';
 import { SpeedDialComponent } from './Moduller/Button/speed-dial/speed-dial.component';
 import {SpeedDialModule} from 'primeng/speeddial';
 import {ToastModule} from 'primeng/toast';
@@ -109,6 +109,10 @@ import { ToggleTableComponent } from './Moduller/Tables/toggle-table/toggle-tabl
 import { ExportTableComponent } from './Moduller/Tables/export-table/export-table.component';
 import { StateTableComponent } from './Moduller/Tables/state-table/state-table.component';
 import { StickyTableComponent } from './Moduller/Tables/sticky-table/sticky-table.component';
+import { CrudTableComponent } from './Moduller/Tables/crud-table/crud-table.component';
+import {ConfirmDialogModule} from 'primeng/confirmdialog';
+import {ConfirmPopupModule} from 'primeng/confirmpopup';
+import {FileUploadModule} from 'primeng/fileupload';
 @NgModule({
   declarations: [
     AppComponent,
@@ -169,7 +173,8 @@ import { StickyTableComponent } from './Moduller/Tables/sticky-table/sticky-tabl
     ToggleTableComponent,
     ExportTableComponent,
     StateTableComponent,
-    StickyTableComponent
+    StickyTableComponent,
+    CrudTableComponent
     
   ],
   imports: [
@@ -217,7 +222,10 @@ import { StickyTableComponent } from './Moduller/Tables/sticky-table/sticky-tabl
     OrganizationChartModule,
     PaginatorModule,
     PickListModule,
-    TableModule
+    TableModule,
+    ConfirmDialogModule,
+    ConfirmPopupModule,
+    FileUploadModule
   ],
   providers: [HttpClient,
               NodeService,
@@ -225,7 +233,8 @@ import { StickyTableComponent } from './Moduller/Tables/sticky-table/sticky-tabl
               MessageService,
               ProductService,
               EventService,
-              CustomerService
+              CustomerService,
+              ConfirmationService
             ],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
