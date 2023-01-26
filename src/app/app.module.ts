@@ -104,6 +104,7 @@ import { LazyTableComponent } from './Moduller/Tables/lazy-table/lazy-table.comp
 import { ScrollTableComponent } from './Moduller/Tables/scroll-table/scroll-table.component';
 import { VirtualScrollComponent } from './Moduller/Tables/virtual-scroll/virtual-scroll.component';
 import { RowExpandComponent } from './Moduller/Tables/row-expand/row-expand.component';
+import { EditTableComponent } from './Moduller/Tables/edit-table/edit-table.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -159,7 +160,8 @@ import { RowExpandComponent } from './Moduller/Tables/row-expand/row-expand.comp
     LazyTableComponent,
     ScrollTableComponent,
     VirtualScrollComponent,
-    RowExpandComponent
+    RowExpandComponent,
+    EditTableComponent
     
   ],
   imports: [
