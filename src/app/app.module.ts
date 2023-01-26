@@ -105,6 +105,7 @@ import { ScrollTableComponent } from './Moduller/Tables/scroll-table/scroll-tabl
 import { VirtualScrollComponent } from './Moduller/Tables/virtual-scroll/virtual-scroll.component';
 import { RowExpandComponent } from './Moduller/Tables/row-expand/row-expand.component';
 import { EditTableComponent } from './Moduller/Tables/edit-table/edit-table.component';
+import { ToggleTableComponent } from './Moduller/Tables/toggle-table/toggle-table.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -161,7 +162,8 @@ import { EditTableComponent } from './Moduller/Tables/edit-table/edit-table.comp
     ScrollTableComponent,
     VirtualScrollComponent,
     RowExpandComponent,
-    EditTableComponent
+    EditTableComponent,
+    ToggleTableComponent
     
   ],
   imports: [
