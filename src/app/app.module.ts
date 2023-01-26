@@ -118,6 +118,8 @@ import { TimelineComponent } from './Moduller/otherss/timeline/timeline.componen
 import {TreeModule} from 'primeng/tree';
 import {DialogModule} from 'primeng/dialog';
 import {ContextMenuModule} from 'primeng/contextmenu';
+import {TreeTableModule} from 'primeng/treetable';
+import { TreeTableComponent } from './Moduller/otherss/tree-table/tree-table.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -180,7 +182,8 @@ import {ContextMenuModule} from 'primeng/contextmenu';
     StateTableComponent,
     StickyTableComponent,
     CrudTableComponent,
-    TimelineComponent
+    TimelineComponent,
+    TreeTableComponent
     
   ],
   imports: [
@@ -235,7 +238,8 @@ import {ContextMenuModule} from 'primeng/contextmenu';
     TimelineModule,
     TreeModule,
     DialogModule,
-    ContextMenuModule
+    ContextMenuModule,
+    TreeTableModule
   ],
   providers: [HttpClient,
               NodeService,
