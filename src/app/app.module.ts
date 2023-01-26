@@ -108,6 +108,7 @@ import { EditTableComponent } from './Moduller/Tables/edit-table/edit-table.comp
 import { ToggleTableComponent } from './Moduller/Tables/toggle-table/toggle-table.component';
 import { ExportTableComponent } from './Moduller/Tables/export-table/export-table.component';
 import { StateTableComponent } from './Moduller/Tables/state-table/state-table.component';
+import { StickyTableComponent } from './Moduller/Tables/sticky-table/sticky-table.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -167,7 +168,8 @@ import { StateTableComponent } from './Moduller/Tables/state-table/state-table.c
     EditTableComponent,
     ToggleTableComponent,
     ExportTableComponent,
-    StateTableComponent
+    StateTableComponent,
+    StickyTableComponent
     
   ],
   imports: [
