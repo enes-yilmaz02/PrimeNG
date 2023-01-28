@@ -129,7 +129,8 @@ import { AccordionComponent } from './Moduller/Panel/accordion/accordion.compone
 import { CardComponent } from './Moduller/Panel/card/card.component';
 import {CardModule} from 'primeng/card';
 import { DividerComponent } from './Moduller/Panel/divider/divider.component';
-
+import { FieldsetComponent } from './Moduller/Panel/fieldset/fieldset.component';
+import {FieldsetModule} from 'primeng/fieldset';
 @NgModule({
   declarations: [
     AppComponent,
@@ -198,7 +199,8 @@ import { DividerComponent } from './Moduller/Panel/divider/divider.component';
     ScrollerComponent,
     AccordionComponent,
     CardComponent,
-    DividerComponent
+    DividerComponent,
+    FieldsetComponent
     
   ],
   imports: [
@@ -258,7 +260,8 @@ import { DividerComponent } from './Moduller/Panel/divider/divider.component';
     VirtualScrollerModule,
     ScrollerModule,
     AccordionModule,
-    CardModule
+    CardModule,
+    FieldsetModule
   ],
   providers: [HttpClient,
               NodeService,
