@@ -124,6 +124,8 @@ import {VirtualScrollerModule} from 'primeng/virtualscroller';
 import { VirtualScrollerComponent } from './Moduller/otherss/virtual-scroller/virtual-scroller.component';
 import {ScrollerModule} from 'primeng/scroller';
 import { ScrollerComponent } from './Moduller/otherss/scroller/scroller.component';
+import {AccordionModule} from 'primeng/accordion';
+import { AccordionComponent } from './Moduller/Panel/accordion/accordion.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -189,7 +191,8 @@ import { ScrollerComponent } from './Moduller/otherss/scroller/scroller.componen
     TimelineComponent,
     TreeTableComponent,
     VirtualScrollerComponent,
-    ScrollerComponent
+    ScrollerComponent,
+    AccordionComponent
     
   ],
   imports: [
@@ -247,7 +250,8 @@ import { ScrollerComponent } from './Moduller/otherss/scroller/scroller.componen
     ContextMenuModule,
     TreeTableModule,
     VirtualScrollerModule,
-    ScrollerModule
+    ScrollerModule,
+    AccordionModule
   ],
   providers: [HttpClient,
               NodeService,
