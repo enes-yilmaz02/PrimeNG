@@ -133,6 +133,8 @@ import { FieldsetComponent } from './Moduller/Panel/fieldset/fieldset.component'
 import {FieldsetModule} from 'primeng/fieldset';
 import {PanelModule} from 'primeng/panel';
 import { PanelComponent } from './Moduller/Panel/panel/panel.component';
+import {SplitterModule} from 'primeng/splitter';
+import { SplitterComponent } from './Moduller/Panel/splitter/splitter.component';
 
 @NgModule({
   declarations: [
@@ -204,7 +206,8 @@ import { PanelComponent } from './Moduller/Panel/panel/panel.component';
     CardComponent,
     DividerComponent,
     FieldsetComponent,
-    PanelComponent
+    PanelComponent,
+    SplitterComponent
     
   ],
   imports: [
@@ -266,7 +269,8 @@ import { PanelComponent } from './Moduller/Panel/panel/panel.component';
     AccordionModule,
     CardModule,
     FieldsetModule,
-    PanelModule
+    PanelModule,
+    SplitterModule
   ],
   providers: [HttpClient,
               NodeService,
