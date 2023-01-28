@@ -131,6 +131,9 @@ import {CardModule} from 'primeng/card';
 import { DividerComponent } from './Moduller/Panel/divider/divider.component';
 import { FieldsetComponent } from './Moduller/Panel/fieldset/fieldset.component';
 import {FieldsetModule} from 'primeng/fieldset';
+import {PanelModule} from 'primeng/panel';
+import { PanelComponent } from './Moduller/Panel/panel/panel.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -200,7 +203,8 @@ import {FieldsetModule} from 'primeng/fieldset';
     AccordionComponent,
     CardComponent,
     DividerComponent,
-    FieldsetComponent
+    FieldsetComponent,
+    PanelComponent
     
   ],
   imports: [
@@ -261,7 +265,8 @@ import {FieldsetModule} from 'primeng/fieldset';
     ScrollerModule,
     AccordionModule,
     CardModule,
-    FieldsetModule
+    FieldsetModule,
+    PanelModule
   ],
   providers: [HttpClient,
               NodeService,
