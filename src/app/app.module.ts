@@ -128,6 +128,7 @@ import {AccordionModule} from 'primeng/accordion';
 import { AccordionComponent } from './Moduller/Panel/accordion/accordion.component';
 import { CardComponent } from './Moduller/Panel/card/card.component';
 import {CardModule} from 'primeng/card';
+import { DividerComponent } from './Moduller/Panel/divider/divider.component';
 
 @NgModule({
   declarations: [
@@ -196,7 +197,8 @@ import {CardModule} from 'primeng/card';
     VirtualScrollerComponent,
     ScrollerComponent,
     AccordionComponent,
-    CardComponent
+    CardComponent,
+    DividerComponent
     
   ],
   imports: [
