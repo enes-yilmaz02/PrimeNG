@@ -126,6 +126,9 @@ import {ScrollerModule} from 'primeng/scroller';
 import { ScrollerComponent } from './Moduller/otherss/scroller/scroller.component';
 import {AccordionModule} from 'primeng/accordion';
 import { AccordionComponent } from './Moduller/Panel/accordion/accordion.component';
+import { CardComponent } from './Moduller/Panel/card/card.component';
+import {CardModule} from 'primeng/card';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -192,7 +195,8 @@ import { AccordionComponent } from './Moduller/Panel/accordion/accordion.compone
     TreeTableComponent,
     VirtualScrollerComponent,
     ScrollerComponent,
-    AccordionComponent
+    AccordionComponent,
+    CardComponent
     
   ],
   imports: [
@@ -251,7 +255,8 @@ import { AccordionComponent } from './Moduller/Panel/accordion/accordion.compone
     TreeTableModule,
     VirtualScrollerModule,
     ScrollerModule,
-    AccordionModule
+    AccordionModule,
+    CardModule
   ],
   providers: [HttpClient,
               NodeService,
