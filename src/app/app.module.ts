@@ -135,6 +135,8 @@ import {PanelModule} from 'primeng/panel';
 import { PanelComponent } from './Moduller/Panel/panel/panel.component';
 import {SplitterModule} from 'primeng/splitter';
 import { SplitterComponent } from './Moduller/Panel/splitter/splitter.component';
+import { ScroolPanelComponent } from './Moduller/Panel/scrool-panel/scrool-panel.component';
+import {ScrollPanelModule} from 'primeng/scrollpanel';
 
 @NgModule({
   declarations: [
@@ -207,7 +209,8 @@ import { SplitterComponent } from './Moduller/Panel/splitter/splitter.component'
     DividerComponent,
     FieldsetComponent,
     PanelComponent,
-    SplitterComponent
+    SplitterComponent,
+    ScroolPanelComponent
     
   ],
   imports: [
@@ -270,7 +273,8 @@ import { SplitterComponent } from './Moduller/Panel/splitter/splitter.component'
     CardModule,
     FieldsetModule,
     PanelModule,
-    SplitterModule
+    SplitterModule,
+    ScrollPanelModule
   ],
   providers: [HttpClient,
               NodeService,
