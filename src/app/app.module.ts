@@ -137,6 +137,7 @@ import {SplitterModule} from 'primeng/splitter';
 import { SplitterComponent } from './Moduller/Panel/splitter/splitter.component';
 import { ScroolPanelComponent } from './Moduller/Panel/scrool-panel/scrool-panel.component';
 import {ScrollPanelModule} from 'primeng/scrollpanel';
+import { TabviewComponent } from './Moduller/Panel/tabview/tabview.component';
 
 @NgModule({
   declarations: [
@@ -210,7 +211,8 @@ import {ScrollPanelModule} from 'primeng/scrollpanel';
     FieldsetComponent,
     PanelComponent,
     SplitterComponent,
-    ScroolPanelComponent
+    ScroolPanelComponent,
+    TabviewComponent
     
   ],
   imports: [
