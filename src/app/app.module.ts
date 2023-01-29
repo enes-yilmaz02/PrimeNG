@@ -154,6 +154,7 @@ import { UploadComponent } from './Moduller/File/upload/upload.component';
 import {MenuModule} from 'primeng/menu';
 import {BreadcrumbModule} from 'primeng/breadcrumb';
 import { BreadCrumbComponent } from './Moduller/Menu/bread-crumb/bread-crumb.component';
+import { ContextMenuComponent } from './Moduller/Menu/context-menu/context-menu.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -237,7 +238,8 @@ import { BreadCrumbComponent } from './Moduller/Menu/bread-crumb/bread-crumb.com
     SidebarComponent,
     TooltipComponent,
     UploadComponent,
-    BreadCrumbComponent
+    BreadCrumbComponent,
+    ContextMenuComponent
     
   ],
   imports: [
@@ -307,7 +309,8 @@ import { BreadCrumbComponent } from './Moduller/Menu/bread-crumb/bread-crumb.com
     SidebarModule,
     TooltipModule,
     MenuModule,
-    BreadcrumbModule
+    BreadcrumbModule,
+    
   ],
   providers: [HttpClient,
               NodeService,
