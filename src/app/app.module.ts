@@ -146,7 +146,8 @@ import { DialogComponent } from './Moduller/Overlayy/dialog/dialog.component';
 import {DialogService, DynamicDialogModule} from 'primeng/dynamicdialog';
 import { DynamicDialogComponent } from './Moduller/Overlayy/dynamic-dialog/dynamic-dialog.component';
 import { ProductList } from './Moduller/Overlayy/dynamic-dialog/productlist';
-
+import {SidebarModule} from 'primeng/sidebar';
+import { SidebarComponent } from './Moduller/Overlayy/sidebar/sidebar.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -226,7 +227,8 @@ import { ProductList } from './Moduller/Overlayy/dynamic-dialog/productlist';
     ConfirmPopupComponent,
     DialogComponent,
     DynamicDialogComponent,
-    ProductList
+    ProductList,
+    SidebarComponent
     
   ],
   imports: [
@@ -292,7 +294,8 @@ import { ProductList } from './Moduller/Overlayy/dynamic-dialog/productlist';
     SplitterModule,
     ScrollPanelModule,
     ToolbarModule,
-    DynamicDialogModule
+    DynamicDialogModule,
+    SidebarModule
   ],
   providers: [HttpClient,
               NodeService,
