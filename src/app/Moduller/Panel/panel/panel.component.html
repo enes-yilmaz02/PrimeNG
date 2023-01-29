@@ -9,7 +9,7 @@
 <h5>Advanced</h5>
 <p-panel header="Header"  [toggleable]="true">
     <ng-template pTemplate="icons">
-        <button pButton class="p-panel-header-icon p-link" icon="pi pi-cog" (click)="menu.ontoggle!($event)">
+        <button pButton class="p-panel-header-icon p-link" icon="pi pi-cog" (click)="menu.toggle!($event)">
         </button>
         <p-menu #menu id="config_menu" [model]="items" [popup]="true"></p-menu>
     </ng-template>

@@ -151,6 +151,9 @@ import { SidebarComponent } from './Moduller/Overlayy/sidebar/sidebar.component'
 import { TooltipComponent } from './Moduller/Overlayy/tooltip/tooltip.component';
 import {TooltipModule} from 'primeng/tooltip';
 import { UploadComponent } from './Moduller/File/upload/upload.component';
+import {MenuModule} from 'primeng/menu';
+import {BreadcrumbModule} from 'primeng/breadcrumb';
+import { BreadCrumbComponent } from './Moduller/Menu/bread-crumb/bread-crumb.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -233,7 +236,8 @@ import { UploadComponent } from './Moduller/File/upload/upload.component';
     ProductList,
     SidebarComponent,
     TooltipComponent,
-    UploadComponent
+    UploadComponent,
+    BreadCrumbComponent
     
   ],
   imports: [
@@ -301,7 +305,9 @@ import { UploadComponent } from './Moduller/File/upload/upload.component';
     ToolbarModule,
     DynamicDialogModule,
     SidebarModule,
-    TooltipModule
+    TooltipModule,
+    MenuModule,
+    BreadcrumbModule
   ],
   providers: [HttpClient,
               NodeService,
