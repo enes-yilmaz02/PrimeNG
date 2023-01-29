@@ -150,6 +150,7 @@ import {SidebarModule} from 'primeng/sidebar';
 import { SidebarComponent } from './Moduller/Overlayy/sidebar/sidebar.component';
 import { TooltipComponent } from './Moduller/Overlayy/tooltip/tooltip.component';
 import {TooltipModule} from 'primeng/tooltip';
+import { UploadComponent } from './Moduller/File/upload/upload.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -231,7 +232,8 @@ import {TooltipModule} from 'primeng/tooltip';
     DynamicDialogComponent,
     ProductList,
     SidebarComponent,
-    TooltipComponent
+    TooltipComponent,
+    UploadComponent
     
   ],
   imports: [
