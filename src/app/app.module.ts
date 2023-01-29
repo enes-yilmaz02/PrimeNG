@@ -155,6 +155,11 @@ import {MenuModule} from 'primeng/menu';
 import {BreadcrumbModule} from 'primeng/breadcrumb';
 import { BreadCrumbComponent } from './Moduller/Menu/bread-crumb/bread-crumb.component';
 import { ContextMenuComponent } from './Moduller/Menu/context-menu/context-menu.component';
+import { DockComponent } from './Moduller/Menu/dock/dock.component';
+import {DockModule} from 'primeng/dock';
+import { GalleriaModule } from 'primeng/galleria';
+import { TerminalModule, TerminalService } from 'primeng/terminal';
+import { PhotoService } from './Servicess/photo.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -239,7 +244,8 @@ import { ContextMenuComponent } from './Moduller/Menu/context-menu/context-menu.
     TooltipComponent,
     UploadComponent,
     BreadCrumbComponent,
-    ContextMenuComponent
+    ContextMenuComponent,
+    DockComponent
     
   ],
   imports: [
@@ -310,6 +316,9 @@ import { ContextMenuComponent } from './Moduller/Menu/context-menu/context-menu.
     TooltipModule,
     MenuModule,
     BreadcrumbModule,
+    DockModule,
+    GalleriaModule,
+    TerminalModule
     
   ],
   providers: [HttpClient,
@@ -321,7 +330,8 @@ import { ContextMenuComponent } from './Moduller/Menu/context-menu/context-menu.
               CustomerService,
               ConfirmationService,
               DialogService,
-
+              PhotoService,
+              TerminalService
             ],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
