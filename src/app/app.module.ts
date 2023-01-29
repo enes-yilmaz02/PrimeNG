@@ -160,6 +160,8 @@ import {DockModule} from 'primeng/dock';
 import { GalleriaModule } from 'primeng/galleria';
 import { TerminalModule, TerminalService } from 'primeng/terminal';
 import { PhotoService } from './Servicess/photo.service';
+import {MegaMenuModule} from 'primeng/megamenu';
+import { MEGAMENUComponent } from './Moduller/Menu/megamenu/megamenu.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -245,7 +247,8 @@ import { PhotoService } from './Servicess/photo.service';
     UploadComponent,
     BreadCrumbComponent,
     ContextMenuComponent,
-    DockComponent
+    DockComponent,
+    MEGAMENUComponent
     
   ],
   imports: [
@@ -318,7 +321,8 @@ import { PhotoService } from './Servicess/photo.service';
     BreadcrumbModule,
     DockModule,
     GalleriaModule,
-    TerminalModule
+    TerminalModule,
+    MegaMenuModule
     
   ],
   providers: [HttpClient,
