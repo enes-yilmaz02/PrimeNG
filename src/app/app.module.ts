@@ -140,6 +140,7 @@ import {ScrollPanelModule} from 'primeng/scrollpanel';
 import { TabviewComponent } from './Moduller/Panel/tabview/tabview.component';
 import {ToolbarModule} from 'primeng/toolbar';
 import { ToolbarComponent } from './Moduller/Panel/toolbar/toolbar.component';
+import { ConfirmDialogComponent } from './Moduller/Overlayy/confirm-dialog/confirm-dialog.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -214,7 +215,8 @@ import { ToolbarComponent } from './Moduller/Panel/toolbar/toolbar.component';
     SplitterComponent,
     ScroolPanelComponent,
     TabviewComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    ConfirmDialogComponent
     
   ],
   imports: [
