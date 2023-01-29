@@ -148,6 +148,8 @@ import { DynamicDialogComponent } from './Moduller/Overlayy/dynamic-dialog/dynam
 import { ProductList } from './Moduller/Overlayy/dynamic-dialog/productlist';
 import {SidebarModule} from 'primeng/sidebar';
 import { SidebarComponent } from './Moduller/Overlayy/sidebar/sidebar.component';
+import { TooltipComponent } from './Moduller/Overlayy/tooltip/tooltip.component';
+import {TooltipModule} from 'primeng/tooltip';
 @NgModule({
   declarations: [
     AppComponent,
@@ -228,7 +230,8 @@ import { SidebarComponent } from './Moduller/Overlayy/sidebar/sidebar.component'
     DialogComponent,
     DynamicDialogComponent,
     ProductList,
-    SidebarComponent
+    SidebarComponent,
+    TooltipComponent
     
   ],
   imports: [
@@ -295,7 +298,8 @@ import { SidebarComponent } from './Moduller/Overlayy/sidebar/sidebar.component'
     ScrollPanelModule,
     ToolbarModule,
     DynamicDialogModule,
-    SidebarModule
+    SidebarModule,
+    TooltipModule
   ],
   providers: [HttpClient,
               NodeService,
