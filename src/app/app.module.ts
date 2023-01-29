@@ -141,6 +141,8 @@ import { TabviewComponent } from './Moduller/Panel/tabview/tabview.component';
 import {ToolbarModule} from 'primeng/toolbar';
 import { ToolbarComponent } from './Moduller/Panel/toolbar/toolbar.component';
 import { ConfirmDialogComponent } from './Moduller/Overlayy/confirm-dialog/confirm-dialog.component';
+import { ConfirmPopupComponent } from './Moduller/Overlayy/confirm-popup/confirm-popup.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -216,7 +218,8 @@ import { ConfirmDialogComponent } from './Moduller/Overlayy/confirm-dialog/confi
     ScroolPanelComponent,
     TabviewComponent,
     ToolbarComponent,
-    ConfirmDialogComponent
+    ConfirmDialogComponent,
+    ConfirmPopupComponent
     
   ],
   imports: [
