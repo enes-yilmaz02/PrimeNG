@@ -171,6 +171,10 @@ import {SlideMenuModule} from 'primeng/slidemenu';
 import { SlideMenuComponent } from './Moduller/Menu/slide-menu/slide-menu.component';
 import { StepsComponent } from './Moduller/Menu/steps/steps.component';
 import {StepsModule} from 'primeng/steps';
+import { TabMenuComponent } from './Moduller/Menu/tab-menu/tab-menu.component';
+import {TabMenuModule} from 'primeng/tabmenu';
+import {TieredMenuModule} from 'primeng/tieredmenu';
+import { TieredMenuComponent } from './Moduller/Menu/tiered-menu/tiered-menu.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -262,7 +266,9 @@ import {StepsModule} from 'primeng/steps';
     MenuBarComponent,
     PanelMenuComponent,
     SlideMenuComponent,
-    StepsComponent
+    StepsComponent,
+    TabMenuComponent,
+    TieredMenuComponent
     
   ],
   imports: [
@@ -340,7 +346,9 @@ import {StepsModule} from 'primeng/steps';
     MenubarModule,
     PanelMenuModule,
     SlideMenuModule,
-    StepsModule
+    StepsModule,
+    TabMenuModule,
+    TieredMenuModule
     
   ],
   providers: [HttpClient,
