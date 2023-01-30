@@ -163,6 +163,8 @@ import { PhotoService } from './Servicess/photo.service';
 import {MegaMenuModule} from 'primeng/megamenu';
 import { MEGAMENUComponent } from './Moduller/Menu/megamenu/megamenu.component';
 import { MiniMenuComponent } from './Moduller/Menu/mini-menu/mini-menu.component';
+import {MenubarModule} from 'primeng/menubar';
+import { MenuBarComponent } from './Moduller/Menu/menu-bar/menu-bar.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -250,7 +252,8 @@ import { MiniMenuComponent } from './Moduller/Menu/mini-menu/mini-menu.component
     ContextMenuComponent,
     DockComponent,
     MEGAMENUComponent,
-    MiniMenuComponent
+    MiniMenuComponent,
+    MenuBarComponent
     
   ],
   imports: [
@@ -324,7 +327,8 @@ import { MiniMenuComponent } from './Moduller/Menu/mini-menu/mini-menu.component
     DockModule,
     GalleriaModule,
     TerminalModule,
-    MegaMenuModule
+    MegaMenuModule,
+    MenubarModule
     
   ],
   providers: [HttpClient,
