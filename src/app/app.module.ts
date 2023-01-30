@@ -165,6 +165,8 @@ import { MEGAMENUComponent } from './Moduller/Menu/megamenu/megamenu.component';
 import { MiniMenuComponent } from './Moduller/Menu/mini-menu/mini-menu.component';
 import {MenubarModule} from 'primeng/menubar';
 import { MenuBarComponent } from './Moduller/Menu/menu-bar/menu-bar.component';
+import {PanelMenuModule} from 'primeng/panelmenu';
+import { PanelMenuComponent } from './Moduller/Menu/panel-menu/panel-menu.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -253,7 +255,8 @@ import { MenuBarComponent } from './Moduller/Menu/menu-bar/menu-bar.component';
     DockComponent,
     MEGAMENUComponent,
     MiniMenuComponent,
-    MenuBarComponent
+    MenuBarComponent,
+    PanelMenuComponent
     
   ],
   imports: [
@@ -328,7 +331,8 @@ import { MenuBarComponent } from './Moduller/Menu/menu-bar/menu-bar.component';
     GalleriaModule,
     TerminalModule,
     MegaMenuModule,
-    MenubarModule
+    MenubarModule,
+    PanelMenuModule
     
   ],
   providers: [HttpClient,
