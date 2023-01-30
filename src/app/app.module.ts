@@ -162,6 +162,7 @@ import { TerminalModule, TerminalService } from 'primeng/terminal';
 import { PhotoService } from './Servicess/photo.service';
 import {MegaMenuModule} from 'primeng/megamenu';
 import { MEGAMENUComponent } from './Moduller/Menu/megamenu/megamenu.component';
+import { MiniMenuComponent } from './Moduller/Menu/mini-menu/mini-menu.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -248,7 +249,8 @@ import { MEGAMENUComponent } from './Moduller/Menu/megamenu/megamenu.component';
     BreadCrumbComponent,
     ContextMenuComponent,
     DockComponent,
-    MEGAMENUComponent
+    MEGAMENUComponent,
+    MiniMenuComponent
     
   ],
   imports: [
