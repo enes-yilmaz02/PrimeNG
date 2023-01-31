@@ -192,7 +192,8 @@ import { CaroselComponent } from './Moduller/Media/carosel/carosel.component';
 import { GaleriaComponent } from './Moduller/Media/galeria/galeria.component';
 import { FullScreenComponent } from './Moduller/Media/full-screen/full-screen.component';
 import { AdcancedComponent } from './Moduller/Media/adcanced/adcanced.component';
-
+import {ImageModule} from 'primeng/image';
+import { ImageeComponent } from './Moduller/Media/imagee/imagee.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -300,7 +301,9 @@ import { AdcancedComponent } from './Moduller/Media/adcanced/adcanced.component'
     CaroselComponent,
     GaleriaComponent,
     FullScreenComponent,
-    AdcancedComponent
+    AdcancedComponent,
+    ImageeComponent,
+    
     
   ],
   imports: [
@@ -382,7 +385,8 @@ import { AdcancedComponent } from './Moduller/Media/adcanced/adcanced.component'
     TabMenuModule,
     TieredMenuModule,
     ChartModule,
-    CarouselModule
+    CarouselModule,
+    ImageModule
     
   ],
   providers: [HttpClient,
