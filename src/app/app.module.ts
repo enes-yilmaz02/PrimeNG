@@ -181,6 +181,7 @@ import { BarComponent } from './Moduller/Chart/bar/bar.component';
 import { AppConfigService } from './Servicess/appconfig.service';
 import { DoughnutComponent } from './Moduller/Chart/doughnut/doughnut.component';
 import { LineComponent } from './Moduller/Chart/line/line.component';
+import { PolarAreaComponent } from './Moduller/Chart/polar-area/polar-area.component';
 
 @NgModule({
   declarations: [
@@ -279,7 +280,8 @@ import { LineComponent } from './Moduller/Chart/line/line.component';
     ChartModelComponent,
     BarComponent,
     DoughnutComponent,
-    LineComponent
+    LineComponent,
+    PolarAreaComponent
     
   ],
   imports: [
