@@ -183,6 +183,7 @@ import { DoughnutComponent } from './Moduller/Chart/doughnut/doughnut.component'
 import { LineComponent } from './Moduller/Chart/line/line.component';
 import { PolarAreaComponent } from './Moduller/Chart/polar-area/polar-area.component';
 import { PieComponent } from './Moduller/Chart/pie/pie.component';
+import { RadarComponent } from './Moduller/Chart/radar/radar.component';
 
 @NgModule({
   declarations: [
@@ -283,7 +284,8 @@ import { PieComponent } from './Moduller/Chart/pie/pie.component';
     DoughnutComponent,
     LineComponent,
     PolarAreaComponent,
-    PieComponent
+    PieComponent,
+    RadarComponent
     
   ],
   imports: [
