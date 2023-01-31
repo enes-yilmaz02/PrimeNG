@@ -190,6 +190,7 @@ import { ToastComponent } from './Moduller/Messages/toast/toast.component';
 import {CarouselModule} from 'primeng/carousel';
 import { CaroselComponent } from './Moduller/Media/carosel/carosel.component';
 import { GaleriaComponent } from './Moduller/Media/galeria/galeria.component';
+import { FullScreenComponent } from './Moduller/Media/full-screen/full-screen.component';
 
 @NgModule({
   declarations: [
@@ -296,7 +297,8 @@ import { GaleriaComponent } from './Moduller/Media/galeria/galeria.component';
     MessagesComponent,
     ToastComponent,
     CaroselComponent,
-    GaleriaComponent
+    GaleriaComponent,
+    FullScreenComponent
     
   ],
   imports: [

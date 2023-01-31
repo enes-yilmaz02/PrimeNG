@@ -1,0 +1,43 @@
+<h5>Basic</h5>
+<p-galleria [value]="images" [(visible)]="displayBasic" [responsiveOptions]="responsiveOptions2" [containerStyle]="{'max-width': '50%'}" [numVisible]="9"
+    [circular]="true" [fullScreen]="true" [showItemNavigators]="true" [baseZIndex]="100000">
+    <ng-template pTemplate="item" let-item>
+        <img [src]="item.previewImageSrc" style="width: 100%; display: block;"/>
+    </ng-template>
+    <ng-template pTemplate="thumbnail" let-item>
+        <div class="grid grid-nogutter justify-content-center">
+            <img [src]="item.thumbnailImageSrc" style="display: block;"/>
+        </div>
+    </ng-template>
+</p-galleria>
+<button pButton type="button" icon="pi pi-external-link" label="Show" (click)="displayBasic = true"></button>
+<h5>Without Thumbnails</h5>
+<p-galleria [value]="images" [(visible)]="displayBasic2" [responsiveOptions]="responsiveOptions" [containerStyle]="{'max-width': '850px'}" [numVisible]="7"
+    [circular]="true" [fullScreen]="true" [showItemNavigators]="true" [showThumbnails]="false" [baseZIndex]="100000">
+    <ng-template pTemplate="item" let-item>
+        <img [src]="item.previewImageSrc" style="width: 100%; display: block;"/>
+    </ng-template>
+    <ng-template pTemplate="thumbnail" let-item>
+        <div class="grid grid-nogutter justify-content-center">
+            <img [src]="item.thumbnailImageSrc" style="display: block;"/>
+        </div>
+    </ng-template>
+</p-galleria>
+<button pButton type="button" icon="pi pi-external-link" label="Show" (click)="displayBasic2 = true"></button>
+<h5>Custom Contents</h5>
+<p-galleria [value]="images" [(visible)]="displayCustom" [(activeIndex)]="activeIndex" [responsiveOptions]="responsiveOptions" [containerStyle]="{'max-width': '850px'}" [numVisible]="7"
+    [circular]="true" [fullScreen]="true" [showItemNavigators]="true" [showThumbnails]="false" [baseZIndex]="100000">
+    <ng-template pTemplate="item" let-item>
+        <img [src]="item.previewImageSrc" style="width: 100%; display: block;"/>
+    </ng-template>
+    <ng-template pTemplate="thumbnail" let-item>
+        <div class="grid grid-nogutter justify-content-center">
+            <img [src]="item.thumbnailImageSrc" style="display: block;"/>
+        </div>
+    </ng-template>
+</p-galleria>
+<div *ngIf="images" class="grid" style="max-width: 400px;">
+    <div *ngFor="let image of images; let index = index;" class="col-3" key="index">
+        <img [src]="image.thumbnailImageSrc" [alt]="image.alt" style="cursor: pointer" (click)="imageClick(index)"/>
+    </div>
+</div>
