@@ -175,6 +175,9 @@ import { TabMenuComponent } from './Moduller/Menu/tab-menu/tab-menu.component';
 import {TabMenuModule} from 'primeng/tabmenu';
 import {TieredMenuModule} from 'primeng/tieredmenu';
 import { TieredMenuComponent } from './Moduller/Menu/tiered-menu/tiered-menu.component';
+import {ChartModule} from 'primeng/chart';
+import { ChartModelComponent } from './Moduller/Chart/chart-model/chart-model.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -268,7 +271,8 @@ import { TieredMenuComponent } from './Moduller/Menu/tiered-menu/tiered-menu.com
     SlideMenuComponent,
     StepsComponent,
     TabMenuComponent,
-    TieredMenuComponent
+    TieredMenuComponent,
+    ChartModelComponent
     
   ],
   imports: [
@@ -348,7 +352,8 @@ import { TieredMenuComponent } from './Moduller/Menu/tiered-menu/tiered-menu.com
     SlideMenuModule,
     StepsModule,
     TabMenuModule,
-    TieredMenuModule
+    TieredMenuModule,
+    ChartModule
     
   ],
   providers: [HttpClient,

@@ -24,6 +24,7 @@
     "@fullcalendar/daygrid": "^6.0.3",
     "@fullcalendar/interaction": "^6.0.3",
     "@fullcalendar/timegrid": "^6.0.3",
+    "chart.js": "^4.2.0",
     "file-saver": "^2.0.5",
     "primeicons": "^6.0.1",
     "primeng": "^15.1.1",
