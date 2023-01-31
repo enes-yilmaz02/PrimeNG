@@ -194,6 +194,8 @@ import { FullScreenComponent } from './Moduller/Media/full-screen/full-screen.co
 import { AdcancedComponent } from './Moduller/Media/adcanced/adcanced.component';
 import {ImageModule} from 'primeng/image';
 import { ImageeComponent } from './Moduller/Media/imagee/imagee.component';
+import {DragDropModule} from 'primeng/dragdrop';
+import { DragDropComponent } from './Moduller/Drag&Drop/drag-drop/drag-drop.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -303,6 +305,7 @@ import { ImageeComponent } from './Moduller/Media/imagee/imagee.component';
     FullScreenComponent,
     AdcancedComponent,
     ImageeComponent,
+    DragDropComponent,
     
     
   ],
@@ -386,7 +389,8 @@ import { ImageeComponent } from './Moduller/Media/imagee/imagee.component';
     TieredMenuModule,
     ChartModule,
     CarouselModule,
-    ImageModule
+    ImageModule,
+    DragDropModule
     
   ],
   providers: [HttpClient,
