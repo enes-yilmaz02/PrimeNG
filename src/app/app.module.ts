@@ -179,6 +179,7 @@ import {ChartModule} from 'primeng/chart';
 import { ChartModelComponent } from './Moduller/Chart/chart-model/chart-model.component';
 import { BarComponent } from './Moduller/Chart/bar/bar.component';
 import { AppConfigService } from './Servicess/appconfig.service';
+import { DoughnutComponent } from './Moduller/Chart/doughnut/doughnut.component';
 
 @NgModule({
   declarations: [
@@ -275,7 +276,8 @@ import { AppConfigService } from './Servicess/appconfig.service';
     TabMenuComponent,
     TieredMenuComponent,
     ChartModelComponent,
-    BarComponent
+    BarComponent,
+    DoughnutComponent
     
   ],
   imports: [
