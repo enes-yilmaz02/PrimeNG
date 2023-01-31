@@ -186,6 +186,7 @@ import { PieComponent } from './Moduller/Chart/pie/pie.component';
 import { RadarComponent } from './Moduller/Chart/radar/radar.component';
 import { ComboComponent } from './Moduller/Chart/combo/combo.component';
 import { MessagesComponent } from './Moduller/Messages/messages/messages.component';
+import { ToastComponent } from './Moduller/Messages/toast/toast.component';
 
 @NgModule({
   declarations: [
@@ -289,7 +290,8 @@ import { MessagesComponent } from './Moduller/Messages/messages/messages.compone
     PieComponent,
     RadarComponent,
     ComboComponent,
-    MessagesComponent
+    MessagesComponent,
+    ToastComponent
     
   ],
   imports: [
