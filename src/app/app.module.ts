@@ -180,6 +180,7 @@ import { ChartModelComponent } from './Moduller/Chart/chart-model/chart-model.co
 import { BarComponent } from './Moduller/Chart/bar/bar.component';
 import { AppConfigService } from './Servicess/appconfig.service';
 import { DoughnutComponent } from './Moduller/Chart/doughnut/doughnut.component';
+import { LineComponent } from './Moduller/Chart/line/line.component';
 
 @NgModule({
   declarations: [
@@ -277,7 +278,8 @@ import { DoughnutComponent } from './Moduller/Chart/doughnut/doughnut.component'
     TieredMenuComponent,
     ChartModelComponent,
     BarComponent,
-    DoughnutComponent
+    DoughnutComponent,
+    LineComponent
     
   ],
   imports: [
