@@ -177,6 +177,8 @@ import {TieredMenuModule} from 'primeng/tieredmenu';
 import { TieredMenuComponent } from './Moduller/Menu/tiered-menu/tiered-menu.component';
 import {ChartModule} from 'primeng/chart';
 import { ChartModelComponent } from './Moduller/Chart/chart-model/chart-model.component';
+import { BarComponent } from './Moduller/Chart/bar/bar.component';
+import { AppConfigService } from './Servicess/appconfig.service';
 
 @NgModule({
   declarations: [
@@ -272,7 +274,8 @@ import { ChartModelComponent } from './Moduller/Chart/chart-model/chart-model.co
     StepsComponent,
     TabMenuComponent,
     TieredMenuComponent,
-    ChartModelComponent
+    ChartModelComponent,
+    BarComponent
     
   ],
   imports: [
@@ -366,7 +369,8 @@ import { ChartModelComponent } from './Moduller/Chart/chart-model/chart-model.co
               ConfirmationService,
               DialogService,
               PhotoService,
-              TerminalService
+              TerminalService,
+              AppConfigService
             ],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
