@@ -189,6 +189,8 @@ import { MessagesComponent } from './Moduller/Messages/messages/messages.compone
 import { ToastComponent } from './Moduller/Messages/toast/toast.component';
 import {CarouselModule} from 'primeng/carousel';
 import { CaroselComponent } from './Moduller/Media/carosel/carosel.component';
+import { GaleriaComponent } from './Moduller/Media/galeria/galeria.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -293,7 +295,8 @@ import { CaroselComponent } from './Moduller/Media/carosel/carosel.component';
     ComboComponent,
     MessagesComponent,
     ToastComponent,
-    CaroselComponent
+    CaroselComponent,
+    GaleriaComponent
     
   ],
   imports: [
