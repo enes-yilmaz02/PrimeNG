@@ -187,7 +187,8 @@ import { RadarComponent } from './Moduller/Chart/radar/radar.component';
 import { ComboComponent } from './Moduller/Chart/combo/combo.component';
 import { MessagesComponent } from './Moduller/Messages/messages/messages.component';
 import { ToastComponent } from './Moduller/Messages/toast/toast.component';
-
+import {CarouselModule} from 'primeng/carousel';
+import { CaroselComponent } from './Moduller/Media/carosel/carosel.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -291,7 +292,8 @@ import { ToastComponent } from './Moduller/Messages/toast/toast.component';
     RadarComponent,
     ComboComponent,
     MessagesComponent,
-    ToastComponent
+    ToastComponent,
+    CaroselComponent
     
   ],
   imports: [
@@ -372,7 +374,8 @@ import { ToastComponent } from './Moduller/Messages/toast/toast.component';
     StepsModule,
     TabMenuModule,
     TieredMenuModule,
-    ChartModule
+    ChartModule,
+    CarouselModule
     
   ],
   providers: [HttpClient,
