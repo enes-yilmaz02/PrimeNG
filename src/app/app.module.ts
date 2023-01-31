@@ -185,6 +185,7 @@ import { PolarAreaComponent } from './Moduller/Chart/polar-area/polar-area.compo
 import { PieComponent } from './Moduller/Chart/pie/pie.component';
 import { RadarComponent } from './Moduller/Chart/radar/radar.component';
 import { ComboComponent } from './Moduller/Chart/combo/combo.component';
+import { MessagesComponent } from './Moduller/Messages/messages/messages.component';
 
 @NgModule({
   declarations: [
@@ -287,7 +288,8 @@ import { ComboComponent } from './Moduller/Chart/combo/combo.component';
     PolarAreaComponent,
     PieComponent,
     RadarComponent,
-    ComboComponent
+    ComboComponent,
+    MessagesComponent
     
   ],
   imports: [
