@@ -191,6 +191,7 @@ import {CarouselModule} from 'primeng/carousel';
 import { CaroselComponent } from './Moduller/Media/carosel/carosel.component';
 import { GaleriaComponent } from './Moduller/Media/galeria/galeria.component';
 import { FullScreenComponent } from './Moduller/Media/full-screen/full-screen.component';
+import { AdcancedComponent } from './Moduller/Media/adcanced/adcanced.component';
 
 @NgModule({
   declarations: [
@@ -298,7 +299,8 @@ import { FullScreenComponent } from './Moduller/Media/full-screen/full-screen.co
     ToastComponent,
     CaroselComponent,
     GaleriaComponent,
-    FullScreenComponent
+    FullScreenComponent,
+    AdcancedComponent
     
   ],
   imports: [
