@@ -212,6 +212,9 @@ import { InplaceComponent } from './Moduller/Mısc/inplace/inplace.component';
 import { CarService } from './Servicess/car.service';
 import {ProgressBarModule} from 'primeng/progressbar';
 import { ProgressBarComponent } from './Moduller/Mısc/progress-bar/progress-bar.component';
+import {ProgressSpinnerModule} from 'primeng/progressspinner';
+import { ProgressSpinnerComponent } from './Moduller/Mısc/progress-spinner/progress-spinner.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -329,6 +332,7 @@ import { ProgressBarComponent } from './Moduller/Mısc/progress-bar/progress-bar
     ChipComponent,
     InplaceComponent,
     ProgressBarComponent,
+    ProgressSpinnerComponent,
     
     
   ],
@@ -421,7 +425,8 @@ import { ProgressBarComponent } from './Moduller/Mısc/progress-bar/progress-bar
     CaptchaModule,
     ChipModule,
     InplaceModule,
-    ProgressBarModule
+    ProgressBarModule,
+    ProgressSpinnerModule
     
   ],
   providers: [HttpClient,
