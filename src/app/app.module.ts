@@ -216,6 +216,8 @@ import {ProgressSpinnerModule} from 'primeng/progressspinner';
 import { ProgressSpinnerComponent } from './Moduller/Mısc/progress-spinner/progress-spinner.component';
 import {ScrollTopModule} from 'primeng/scrolltop';
 import { ScrollTopComponent } from './Moduller/Mısc/scroll-top/scroll-top.component';
+import {SkeletonModule} from 'primeng/skeleton';
+import { SkeletonComponent } from './Moduller/Mısc/skeleton/skeleton.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -335,6 +337,7 @@ import { ScrollTopComponent } from './Moduller/Mısc/scroll-top/scroll-top.compo
     ProgressBarComponent,
     ProgressSpinnerComponent,
     ScrollTopComponent,
+    SkeletonComponent,
     
     
   ],
@@ -429,7 +432,8 @@ import { ScrollTopComponent } from './Moduller/Mısc/scroll-top/scroll-top.compo
     InplaceModule,
     ProgressBarModule,
     ProgressSpinnerModule,
-    ScrollTopModule
+    ScrollTopModule,
+    SkeletonModule
     
   ],
   providers: [HttpClient,
