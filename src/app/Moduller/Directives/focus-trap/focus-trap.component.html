@@ -1,0 +1,40 @@
+<div pFocusTrap>
+    <div pFocusTrap class="card">
+        <h5>Input</h5>
+        <input id="input" type="text" size="30" pInputText> 
+        
+        <h5>Float Label</h5>
+        <span class="p-float-label">
+            <input id="float-input" type="text" size="30" pInputText> 
+            <label for="float-input">Username</label>
+        </span>
+    
+        <h5>Disabled Input</h5>
+        <input id="disabled-input" type="text" size="30" pInputText [disabled]="true" />
+    
+        <h5>Input with tabindex -1</h5>
+        <input type="text" size="30" pInputText tabindex="-1" />
+    
+        <h5>Button</h5>
+        <button pButton type="button" icon="pi pi-check" label="Check"></button>
+    
+        <h5>Disabled Button</h5>
+        <button pButton type="button" icon="pi pi-check" [disabled]="true" label="Disabled"></button>
+    
+        <h5>Button with tabindex -1</h5>
+        <button pButton type="button" icon="pi pi-check" tabindex="-1"  label="Check"></button>
+        
+        <h5>Dropdown</h5>
+        <p-dropdown [options]="cities" [(ngModel)]="selectedCity" placeholder="Select a City" optionLabel="name" [showClear]="true"></p-dropdown>
+    
+        <h5>Editor</h5>   
+        <p-editor [style]="{'height':'320px'}">
+            <ng-template pTemplate="header">
+                <span class="ql-formats">
+                    <button type="button" class="ql-bold" aria-label="Bold"></button>
+                    <button type="button" class="ql-italic" aria-label="Italic"></button>
+                    <button type="button" class="ql-underline" aria-label="Underline"></button>
+                </span>
+            </ng-template>
+        </p-editor>
+    </div>
