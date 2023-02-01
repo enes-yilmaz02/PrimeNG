@@ -218,6 +218,10 @@ import {ScrollTopModule} from 'primeng/scrolltop';
 import { ScrollTopComponent } from './Moduller/Mısc/scroll-top/scroll-top.component';
 import {SkeletonModule} from 'primeng/skeleton';
 import { SkeletonComponent } from './Moduller/Mısc/skeleton/skeleton.component';
+
+import { TagModule } from 'primeng/tag';
+import { TagComponent } from './Moduller/Mısc/tag/tag.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -338,6 +342,7 @@ import { SkeletonComponent } from './Moduller/Mısc/skeleton/skeleton.component'
     ProgressSpinnerComponent,
     ScrollTopComponent,
     SkeletonComponent,
+    TagComponent,
     
     
   ],
@@ -433,7 +438,8 @@ import { SkeletonComponent } from './Moduller/Mısc/skeleton/skeleton.component'
     ProgressBarModule,
     ProgressSpinnerModule,
     ScrollTopModule,
-    SkeletonModule
+    SkeletonModule,
+    TagModule
     
   ],
   providers: [HttpClient,
