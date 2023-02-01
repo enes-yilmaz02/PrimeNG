@@ -203,6 +203,9 @@ import {BadgeModule} from 'primeng/badge';
 import { BadgeComponent } from './Moduller/Mısc/badge/badge.component';
 import {BlockUIModule} from 'primeng/blockui';
 import { BlockUiComponent } from './Moduller/Mısc/block-ui/block-ui.component';
+import { CaptchaComponent } from './Moduller/Mısc/captcha/captcha.component';
+import {CaptchaModule} from 'primeng/captcha';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -316,6 +319,7 @@ import { BlockUiComponent } from './Moduller/Mısc/block-ui/block-ui.component';
     AvatarComponent,
     BadgeComponent,
     BlockUiComponent,
+    CaptchaComponent,
     
     
   ],
@@ -404,7 +408,8 @@ import { BlockUiComponent } from './Moduller/Mısc/block-ui/block-ui.component';
     AvatarModule,
     AvatarGroupModule,
     BadgeModule,
-    BlockUIModule
+    BlockUIModule,
+    CaptchaModule
     
   ],
   providers: [HttpClient,
