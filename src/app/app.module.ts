@@ -227,6 +227,9 @@ import {FocusTrapModule} from 'primeng/focustrap';
 import { FocusTrapComponent } from './Moduller/Directives/focus-trap/focus-trap.component';
 import {StyleClassModule} from 'primeng/styleclass';
 import { StyleClassComponent } from './Moduller/Directives/style-class/style-class.component';
+import {RippleModule} from 'primeng/ripple';
+import { RippleComponent } from './Moduller/Directives/ripple/ripple.component';
+
 
 
 
@@ -355,6 +358,7 @@ import { StyleClassComponent } from './Moduller/Directives/style-class/style-cla
     DeferComponent,
     FocusTrapComponent,
     StyleClassComponent,
+    RippleComponent,
     
     
   ],
@@ -454,7 +458,8 @@ import { StyleClassComponent } from './Moduller/Directives/style-class/style-cla
     TagModule,
     DeferModule,
     FocusTrapModule,
-    StyleClassModule
+    StyleClassModule,
+    RippleModule
     
   ],
   providers: [HttpClient,
