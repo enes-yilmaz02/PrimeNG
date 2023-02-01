@@ -232,8 +232,8 @@ import { RippleComponent } from './Moduller/Directives/ripple/ripple.component';
 import { AutoFocusComponent } from './Moduller/Directives/auto-focus/auto-focus.component';
 import {AutoFocusModule} from 'primeng/autofocus';
 import { AnimateComponent } from './Moduller/Directives/animate/animate.component';
-
 import {AnimateModule} from 'primeng/animate';
+import { FilterServiceComponent } from './Moduller/Utilitiess/filter-service/filter-service.component';
 
 
 
@@ -366,6 +366,7 @@ import {AnimateModule} from 'primeng/animate';
     RippleComponent,
     AutoFocusComponent,
     AnimateComponent,
+    FilterServiceComponent,
     
     
   ],
@@ -470,6 +471,7 @@ import {AnimateModule} from 'primeng/animate';
     AutoFocusModule,
     AnimateModule
     
+    
   ],
   providers: [HttpClient,
               NodeService,
@@ -484,6 +486,7 @@ import {AnimateModule} from 'primeng/animate';
               TerminalService,
               AppConfigService,
               CarService
+              
             ],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
