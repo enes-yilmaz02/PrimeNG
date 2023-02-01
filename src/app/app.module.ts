@@ -196,6 +196,9 @@ import {ImageModule} from 'primeng/image';
 import { ImageeComponent } from './Moduller/Media/imagee/imagee.component';
 import {DragDropModule} from 'primeng/dragdrop';
 import { DragDropComponent } from './Moduller/Drag&Drop/drag-drop/drag-drop.component';
+import {AvatarModule} from 'primeng/avatar';
+import {AvatarGroupModule} from 'primeng/avatargroup';
+import { AvatarComponent } from './Moduller/Mısc/avatar/avatar.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -306,6 +309,7 @@ import { DragDropComponent } from './Moduller/Drag&Drop/drag-drop/drag-drop.comp
     AdcancedComponent,
     ImageeComponent,
     DragDropComponent,
+    AvatarComponent,
     
     
   ],
@@ -390,7 +394,9 @@ import { DragDropComponent } from './Moduller/Drag&Drop/drag-drop/drag-drop.comp
     ChartModule,
     CarouselModule,
     ImageModule,
-    DragDropModule
+    DragDropModule,
+    AvatarModule,
+    AvatarGroupModule
     
   ],
   providers: [HttpClient,
