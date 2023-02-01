@@ -201,6 +201,8 @@ import {AvatarGroupModule} from 'primeng/avatargroup';
 import { AvatarComponent } from './Moduller/Mısc/avatar/avatar.component';
 import {BadgeModule} from 'primeng/badge';
 import { BadgeComponent } from './Moduller/Mısc/badge/badge.component';
+import {BlockUIModule} from 'primeng/blockui';
+import { BlockUiComponent } from './Moduller/Mısc/block-ui/block-ui.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -313,6 +315,7 @@ import { BadgeComponent } from './Moduller/Mısc/badge/badge.component';
     DragDropComponent,
     AvatarComponent,
     BadgeComponent,
+    BlockUiComponent,
     
     
   ],
@@ -400,7 +403,8 @@ import { BadgeComponent } from './Moduller/Mısc/badge/badge.component';
     DragDropModule,
     AvatarModule,
     AvatarGroupModule,
-    BadgeModule
+    BadgeModule,
+    BlockUIModule
     
   ],
   providers: [HttpClient,
