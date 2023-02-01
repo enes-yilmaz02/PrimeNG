@@ -218,9 +218,11 @@ import {ScrollTopModule} from 'primeng/scrolltop';
 import { ScrollTopComponent } from './Moduller/Mısc/scroll-top/scroll-top.component';
 import {SkeletonModule} from 'primeng/skeleton';
 import { SkeletonComponent } from './Moduller/Mısc/skeleton/skeleton.component';
-
 import { TagModule } from 'primeng/tag';
 import { TagComponent } from './Moduller/Mısc/tag/tag.component';
+import { TerminalComponent } from './Moduller/Mısc/terminal/terminal.component';
+
+
 
 @NgModule({
   declarations: [
@@ -343,6 +345,7 @@ import { TagComponent } from './Moduller/Mısc/tag/tag.component';
     ScrollTopComponent,
     SkeletonComponent,
     TagComponent,
+    TerminalComponent,
     
     
   ],
