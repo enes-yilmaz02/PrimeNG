@@ -207,6 +207,9 @@ import { CaptchaComponent } from './Moduller/Mısc/captcha/captcha.component';
 import {CaptchaModule} from 'primeng/captcha';
 import { ChipComponent } from './Moduller/Mısc/chip/chip.component';
 import { ChipModule } from 'primeng/chip';
+import {InplaceModule} from 'primeng/inplace';
+import { InplaceComponent } from './Moduller/Mısc/inplace/inplace.component';
+import { CarService } from './Servicess/car.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -322,6 +325,7 @@ import { ChipModule } from 'primeng/chip';
     BlockUiComponent,
     CaptchaComponent,
     ChipComponent,
+    InplaceComponent,
     
     
   ],
@@ -412,7 +416,8 @@ import { ChipModule } from 'primeng/chip';
     BadgeModule,
     BlockUIModule,
     CaptchaModule,
-    ChipModule
+    ChipModule,
+    InplaceModule
     
   ],
   providers: [HttpClient,
@@ -426,7 +431,8 @@ import { ChipModule } from 'primeng/chip';
               DialogService,
               PhotoService,
               TerminalService,
-              AppConfigService
+              AppConfigService,
+              CarService
             ],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
