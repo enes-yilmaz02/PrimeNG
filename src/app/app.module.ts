@@ -225,6 +225,8 @@ import { DeferComponent } from './Moduller/Directives/defer/defer.component';
 import {DeferModule} from 'primeng/defer';
 import {FocusTrapModule} from 'primeng/focustrap';
 import { FocusTrapComponent } from './Moduller/Directives/focus-trap/focus-trap.component';
+import {StyleClassModule} from 'primeng/styleclass';
+import { StyleClassComponent } from './Moduller/Directives/style-class/style-class.component';
 
 
 
@@ -352,6 +354,7 @@ import { FocusTrapComponent } from './Moduller/Directives/focus-trap/focus-trap.
     TerminalComponent,
     DeferComponent,
     FocusTrapComponent,
+    StyleClassComponent,
     
     
   ],
@@ -450,7 +453,8 @@ import { FocusTrapComponent } from './Moduller/Directives/focus-trap/focus-trap.
     SkeletonModule,
     TagModule,
     DeferModule,
-    FocusTrapModule
+    FocusTrapModule,
+    StyleClassModule
     
   ],
   providers: [HttpClient,
