@@ -210,6 +210,8 @@ import { ChipModule } from 'primeng/chip';
 import {InplaceModule} from 'primeng/inplace';
 import { InplaceComponent } from './Moduller/Mısc/inplace/inplace.component';
 import { CarService } from './Servicess/car.service';
+import {ProgressBarModule} from 'primeng/progressbar';
+import { ProgressBarComponent } from './Moduller/Mısc/progress-bar/progress-bar.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -326,6 +328,7 @@ import { CarService } from './Servicess/car.service';
     CaptchaComponent,
     ChipComponent,
     InplaceComponent,
+    ProgressBarComponent,
     
     
   ],
@@ -417,7 +420,8 @@ import { CarService } from './Servicess/car.service';
     BlockUIModule,
     CaptchaModule,
     ChipModule,
-    InplaceModule
+    InplaceModule,
+    ProgressBarModule
     
   ],
   providers: [HttpClient,
