@@ -221,7 +221,8 @@ import { SkeletonComponent } from './Moduller/Mısc/skeleton/skeleton.component'
 import { TagModule } from 'primeng/tag';
 import { TagComponent } from './Moduller/Mısc/tag/tag.component';
 import { TerminalComponent } from './Moduller/Mısc/terminal/terminal.component';
-
+import { DeferComponent } from './Moduller/Directives/defer/defer.component';
+import {DeferModule} from 'primeng/defer';
 
 
 @NgModule({
@@ -346,6 +347,7 @@ import { TerminalComponent } from './Moduller/Mısc/terminal/terminal.component'
     SkeletonComponent,
     TagComponent,
     TerminalComponent,
+    DeferComponent,
     
     
   ],
@@ -442,7 +444,8 @@ import { TerminalComponent } from './Moduller/Mısc/terminal/terminal.component'
     ProgressSpinnerModule,
     ScrollTopModule,
     SkeletonModule,
-    TagModule
+    TagModule,
+    DeferModule
     
   ],
   providers: [HttpClient,
